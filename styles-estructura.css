@@ -1,0 +1,641 @@
+/* Divisores bottom  de secciones principales y portada*/
+.divisor-estrellas {
+  width: 475px;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: -90px;
+  z-index: 2;
+}
+
+/* Divisiones de estresllas ocultas en secciones principales */
+.seccion-principal.cuenta-regresiva .divisor-estrellas,
+.seccion-principal.cols-eventos .divisor-estrellas,
+.seccion-principal.fiesta .divisor-estrellas,
+.seccion-principal.instagram .divisor-estrellas {
+  display: none;
+}
+
+.seccion-principal.footer {
+  padding-bottom: 125px;
+}
+
+
+.divisor-nubes {
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+section.portada .portada-container .content-portada {
+  padding-top: 90px;
+}
+
+section.portada.portada-dividida .content-portada {
+  padding-bottom: 90px;
+}
+
+/* Divisor superior portada */
+.divisor-nubes.nubes-superior-portada {
+  top: 0;
+  width: 100%;
+}
+
+/* Divisor superior modal musica */
+.divisor-nubes.nubes-modal-musica {
+  top: -1.75rem;
+  width: 100%;
+}
+
+/* Luna de portada */
+.luna-superior-portada {
+  position: absolute;
+  z-index: 1;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -110px;
+  width: 380px;
+}
+
+/* Luna de modal musica */
+.luna-modal-musica {
+  position: absolute;
+  z-index: 1;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -130px;
+  width: 380px;
+}
+
+/* Ocultar en firma */
+.seccion-principal.footer-firma .divisor-estrellas {
+  display: none;
+}
+
+/* Adornos en modales */
+.adorno-modal {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 400px;
+}
+
+.img-top-modal .adorno-modal.adorno-modal-top {
+  top: -112px;
+}
+
+.modal-footer .adorno-modal.adorno-modal-bottom {
+  bottom: -40px;
+}
+
+/* Adornos en modal musica */
+#modalMusica {
+  overflow: hidden;
+}
+
+.adorno-modal-musica.adorno-modal-musica-top,
+.adorno-modal-musica.adorno-modal-musica-bottom {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 650px;
+}
+
+.adorno-modal-musica.adorno-modal-musica-top {
+  top: -45px;
+}
+
+.adorno-modal-musica.adorno-modal-musica-bottom {
+  bottom: -45px;
+  rotate: 180deg;
+}
+
+/* Adornos en cards de Fiesta */
+section.fiesta .card-fiesta {
+  margin-top: 95px;
+}
+
+.content-card-fiesta .adorno-card-fiesta {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -45px;
+  z-index: 1;
+  width: 220px;
+}
+
+section.fiesta .card-fiesta .content-card-fiesta,
+.modal .modal-content {
+  border: none;
+}
+
+#modalMusica p.subtitulo-modal-musica {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+/* Boton close de modales con circulo */
+.modal .modal-content-2 .close {
+  background-color: var(--color-fondo-x-cierre-modales);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0;
+  font-size: 1.75rem;
+  line-height: 1;
+  top: -40px;
+  right: 0;
+}
+
+.modal .modal-content-2 .close:hover {
+  background-color: var(--color-fondo-hover-x-cierre-modales);
+}
+
+.modal .modal-content-2 .close span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Paddings especiales */
+
+/* .seccion-principal.cuenta-regresiva, */
+.seccion-principal.bloque-grupo-invitados,
+.seccion-principal.eventos,
+.seccion-principal.confirmacion-asistencia,
+.seccion-principal.galeria,
+.seccion-principal.fiesta,
+.seccion-principal.regalos,
+.seccion-principal.instagram,
+.seccion-principal.footer {
+  padding-top: 120px;
+}
+
+.seccion-principal.footer-firma {
+  padding-top: 70px;
+}
+
+.seccion-principal.bloque-grupo-invitados,
+.seccion-principal.regalos,
+.seccion-principal.fiesta {
+  padding-bottom: 150px;
+}
+
+/* Cols eventos cuando no existe bloque-grupo-invitados */
+body:not(:has(.bloque-grupo-invitados)) .seccion-principal.cols-eventos {
+  padding-top: 0;
+  z-index: 1;
+}
+
+/* Otros css modificadores de estilos de estructura */
+
+/* Lineas en subtitulo de portada */
+section.portada p.subtitulo-portada {
+  position: relative;
+  margin-top: 0;
+}
+
+section.portada p.subtitulo-portada::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background-color: var(--color-lineas-nombres-portada);
+  z-index: 9;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+/* Lineas en fecha de portada */
+section.portada .box-nombres-fecha-portada span.fecha-portada {
+  position: relative;
+  display: inline-block;
+}
+
+section.portada .box-nombres-fecha-portada span.fecha-portada::before,
+section.portada .box-nombres-fecha-portada span.fecha-portada::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  background-color: var(--color-lineas-nombres-portada);
+  z-index: 9;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+section.portada .box-nombres-fecha-portada span.fecha-portada::before {
+  right: calc(100% + 8px);
+}
+
+section.portada .box-nombres-fecha-portada span.fecha-portada::after {
+  left: calc(100% + 8px);
+}
+
+/* Linea superior en nombres de modal musica */
+#modalMusica .box-nombres-modal-musica::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background-color: var(--color-lineas-nombres-modal-musica);
+  z-index: 9;
+  top: 0;
+}
+
+/* Contenedor de estrella en modal musica con lineas decorativas */
+#modalMusica .box-estrella-modal-musica {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+#modalMusica .box-estrella-modal-musica::before,
+#modalMusica .box-estrella-modal-musica::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  background-color: var(--color-lineas-nombres-modal-musica);
+  z-index: 9;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#modalMusica .box-estrella-modal-musica::before {
+  right: calc(100% + 8px);
+}
+
+#modalMusica .box-estrella-modal-musica::after {
+  left: calc(100% + 8px);
+}
+
+/* Adornos de titulos de eventos. */
+
+.cols-eventos .col-evento .info-col {
+  position: relative;
+}
+
+section.cols-eventos .info-col {
+  margin-top: 60px;
+}
+
+.info-col .adorno-titulo-evento {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -77px;
+  z-index: 1;
+  width: 105px;
+}
+
+section.cols-eventos .box-col {
+  border: none;
+}
+
+/* Lineas de nombres en portada, modal musica y footer */
+section.portada .content-portada .nombres,
+#modalMusica .box-nombres-modal-musica,
+section.footer .col-nombres-footer .nombres {
+  width: fit-content;
+}
+
+#modalMusica .box-nombres-modal-musica {
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+
+#modalMusica .box-nombres-modal-musica::before,
+section.footer .col-nombres-footer .nombres::before,
+section.footer .col-nombres-footer .nombres::after {
+  width: 100%;
+}
+
+section.portada .nombres span.ampersand-portada {
+  width: 55px;
+  height: 55px;
+}
+
+#modalMusica span.ampersand-modal-musica {
+  width: 55px;
+  height: 55px;
+}
+
+section.footer .col-nombres-footer .nombres {
+  padding: 0;
+}
+
+/* Comillas de portada */
+
+.box-frase-portada .comilla-portada {
+  width: 22px;
+  height: 22px;
+}
+
+.box-frase-portada .comilla-portada path {
+  fill: var(--color-comillas-portada);
+}
+
+.box-frase-portada .comilla-apertura-portada {
+  margin-bottom: 5px;
+}
+
+.box-frase-portada .comilla-cierre-portada {
+  transform: rotate(180deg);
+  margin-top: -5px;
+}
+
+/* Frase de portada centrada con ancho limitado */
+section.portada .box-frase-portada p.frase-portada {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Adornos de lunas y estrellas laterales */
+
+.estrella-lateral-izquierda,
+.estrella-lateral-derecha,
+.luna-lateral-izquierda,
+.luna-lateral-derecha {
+  position: absolute;
+  z-index: 2;
+}
+
+.estrella-lateral-izquierda {
+  left: 0;
+  width: 130px;
+}
+
+.estrella-lateral-derecha {
+  right: 0;
+  width: 130px;
+  rotate: 180deg;
+}
+
+.luna-lateral-izquierda {
+  left: -10px;
+  width: 165px;
+  rotate: 180deg;
+}
+
+.luna-lateral-derecha {
+  right: 0;
+  width: 165px;
+}
+
+.cuenta-regresiva .estrella-lateral-izquierda {
+  bottom: -115px;
+}
+
+.cuenta-regresiva .luna-lateral-derecha {
+  bottom: -115px;
+}
+
+.cols-eventos .estrella-lateral-derecha {
+  bottom: -115px;
+}
+
+.cols-eventos .luna-lateral-izquierda {
+  bottom: -115px;
+}
+
+.fiesta .estrella-lateral-izquierda {
+  bottom: -115px;
+}
+
+.fiesta .luna-lateral-derecha {
+  bottom: -65px;
+}
+
+.instagram .estrella-lateral-derecha {
+  bottom: -115px;
+}
+
+.instagram .luna-lateral-izquierda {
+  bottom: -80px;
+}
+
+
+/* Estrella portada */
+.estrella-portada {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.seccion-principal.confirmacion-asistencia {
+  padding-bottom: 150px;
+}
+
+/* Ocultar adornos en portada dividida desktop */
+.portada-imagen-dividida .divisor-estrellas,
+.portada-contenido-dividido .divisor-estrellas,
+.portada-contenido-dividido .divisor-nubes,
+.portada-contenido-dividido .luna-superior-portada {
+  display: none;
+}
+
+/* Opacidad en portada dividida */
+section.portada.portada-dividida .portada-imagen-dividida .opacidad-portada {
+  display: none;
+}
+
+/* Responsive */
+@media only screen and (max-width: 767px) {
+
+  .divisor-estrellas {
+    width: 100%;
+    max-width: 400px;
+    bottom: 10px;
+    transform: translateY(58%);
+  }
+
+  /* Nubes portada responsive */
+  .divisor-nubes.nubes-superior-portada {
+    top: 0;
+    bottom: auto;
+    transform: translateY(-30%);
+  }
+
+  /* Nubes modal musica responsive */
+  .divisor-nubes.nubes-modal-musica {
+    top: 0;
+    bottom: auto;
+    transform: translateY(-30%);
+  }
+
+  /* Mostrar adornos en portada dividida mobile */
+  .portada-imagen-dividida .divisor-estrellas,
+  .portada-imagen-dividida .divisor-nubes,
+  .portada-imagen-dividida .luna-superior-portada {
+    display: inline-block;
+  }
+
+  .portada-contenido-dividido .divisor-estrellas,
+  .portada-contenido-dividido .divisor-nubes,
+  .portada-contenido-dividido .luna-superior-portada {
+    display: none;
+  }
+
+
+  #modalMapa .modal-body {
+    position: relative;
+    min-height: 375px;
+  }
+
+  #googleMap,
+  #googleMapIframe {
+    height: 375px;
+  }
+
+  section.fiesta .card-fiesta {
+    margin-top: 50px;
+  }
+
+  section.fiesta .card-fiesta .content-card-fiesta {
+    padding-top: 30px;
+  }
+
+  section.footer .lista-acciones-footer {
+    margin-top: 50px;
+  }
+
+  .seccion-principal.footer-firma {
+    padding-top: 55px;
+  }
+
+  .seccion-principal.footer {
+    padding-bottom: 55px;
+  }
+
+  .adorno-modal {
+    width: 280px;
+  }
+
+  .img-top-modal .adorno-modal.adorno-modal-top {
+    top: -80px;
+  }
+
+  .modal .modal-content-2.box-col {
+    padding-top: 25px;
+  }
+
+  .adorno-modal-musica.adorno-modal-musica-top,
+  .adorno-modal-musica.adorno-modal-musica-bottom {
+    width: 100%;
+    max-width: 410px;
+  }
+
+  .adorno-modal-musica.adorno-modal-musica-top {
+    top: -30px;
+  }
+
+  .adorno-modal-musica.adorno-modal-musica-bottom {
+    bottom: -30px;
+  }
+
+  section.portada .box-frase-portada p.frase-portada {
+    margin-top: 0;
+    max-width: 90%;
+  }
+
+  section.fiesta .card-fiesta {
+    margin-top: 90px;
+  }
+
+  .seccion-principal.confirmacion-asistencia {
+    padding-bottom: 150px;
+    padding-top: 165px;
+  }
+
+  .luna-lateral-derecha,
+  .luna-lateral-izquierda {
+    right: 0;
+    width: 115px;
+  }
+
+  .estrella-lateral-izquierda,
+  .estrella-lateral-derecha {
+    width: 90px;
+  }
+
+  section.portada .box-nombres-fecha-portada span.fecha-portada::before,
+  section.portada .box-nombres-fecha-portada span.fecha-portada::after {
+    width: 75px;
+  }
+
+  section.portada p.subtitulo-portada::after {
+    width: 50%;
+  }
+
+  #modalMusica .box-estrella-modal-musica::before,
+  #modalMusica .box-estrella-modal-musica::after {
+    width: 75px;
+  }
+
+  /* Luna portada responsive */
+  .luna-superior-portada {
+    top: -90px;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* Luna modal musica responsive */
+  .luna-modal-musica {
+    top: -90px;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .content-card-fiesta .adorno-card-fiesta {
+    width: 270px;
+  }
+
+  .content-card-fiesta .adorno-card-fiesta {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -50px;
+    z-index: 1;
+    width: 250px;
+  }
+
+  #modalMusica .modal-content {
+    padding-top: 105px;
+  }
+
+  section.cols-eventos .box-col {
+    padding-top: 15px;
+  }
+
+  section.cols-eventos {
+    padding-top: 60px;
+  }
+
+}

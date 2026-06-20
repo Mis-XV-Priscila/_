@@ -1,150 +1,2204 @@
-﻿<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Invitación Mis XV Años">
-    <title>Mis XV - Priscila Martínez</title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Local CSS -->
-    <link rel="stylesheet" href="styles.css">
-</head>
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="es-UY">
+
+<head>
+  <!-- Head -->
+  <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="robots" content="noindex, nofollow" />
+
+<meta name="color-scheme" content="light only">
+
+<title>Priscila Martinez ::: Mis 15 años ::: </title>
+
+
+
+<!-- Listado de css con version dinamica segun modificacion de archivo -->
+<link rel='stylesheet' href='modelo-invitacion/138/css/bootstrap.min.css?v=1779158186'/>
+<link rel='stylesheet' href='modelo-invitacion/138/css/slick.css?v=1779158187'/>
+<link rel='stylesheet' href='modelo-invitacion/138/css/slick-theme.css?v=1779158187'/>
+<link rel='stylesheet' href='modelo-invitacion/138/css/jquery.fancybox.min.css?v=1779158186'/>
+<link rel='stylesheet' href='modelo-invitacion/138/css/addEvent.css?v=1779158185'/>
+<link rel='stylesheet' href='modelo-invitacion/138/css/aos.css?v=1779158185'/>
+<link rel='stylesheet' href='services/form-asistencia/css/form-asistencia.css?v=1777463871'/>
+<link rel='stylesheet' href='modelo-invitacion/138/css/style.css?v=1779158187'/>
+<link rel='stylesheet' href='modelo-invitacion/138/css/responsive.css?v=1779158186'/>
+<link rel='stylesheet' href='recursos-variantes-modelos/138/snow/recursos/css/fonts.css?v=1779302128'/>
+<link rel='stylesheet' href='recursos-variantes-modelos/138/snow/recursos/css/styles-estructura.css?v=1779302128'/>
+<link rel='stylesheet' href='recursos-variantes-modelos/138/snow/variantes/night/colores.css?v=1779302154'/>
+
+
+<!-- Color para navegadores moviles -->
+<meta name="theme-color" content="#081B30">
+
+<!-- Favicons -->
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="recursos-variantes-modelos/138/snow/variantes/night/favicon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="recursos-variantes-modelos/138/snow/variantes/night/favicon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="recursos-variantes-modelos/138/snow/variantes/night/favicon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="recursos-variantes-modelos/138/snow/variantes/night/favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="recursos-variantes-modelos/138/snow/variantes/night/favicon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="recursos-variantes-modelos/138/snow/variantes/night/favicon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="recursos-variantes-modelos/138/snow/variantes/night/favicon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="recursos-variantes-modelos/138/snow/variantes/night/favicon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="recursos-variantes-modelos/138/snow/variantes/night/favicon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="recursos-variantes-modelos/138/snow/variantes/night/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="recursos-variantes-modelos/138/snow/variantes/night/favicon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="recursos-variantes-modelos/138/snow/variantes/night/favicon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="recursos-variantes-modelos/138/snow/variantes/night/favicon/favicon-128.png" sizes="128x128" />
+<meta name="msapplication-TileImage" content="recursos-variantes-modelos/138/snow/variantes/night/favicon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="recursos-variantes-modelos/138/snow/variantes/night/favicon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="recursos-variantes-modelos/138/snow/variantes/night/favicon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="recursos-variantes-modelos/138/snow/variantes/night/favicon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="recursos-variantes-modelos/138/snow/variantes/night/favicon/mstile-310x310.png" />
+<meta name="application-name" content="&nbsp;" />
+<meta name="msapplication-TileColor" content="#FFFFFF" /></head>
+
+
+
 <body>
 
-    <!-- YouTube audio element for background music (Hack para visibilidad en móviles) -->
-    <div style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; opacity: 0.01; z-index: -100; pointer-events: none;">
-        <div id="yt-player"></div>
-    </div>
+  <!-- Loader -->
+  <div class="preloader-area">
+  <div class="d-flex justify-content-center align-items-center h-100">
+    <div class="loader"></div>
+  </div>
+</div>
+  <!-- Container invitacion -->
+  <div class="inv-container container">
 
-    <!-- Global Sparkles Canvas -->
-    <canvas id="sparkles"></canvas>
-
-    <!-- LANDING: Envelope Screen -->
-    <div id="envelope-wrapper">
-        <div class="envelope-container" id="envelope" aria-label="Haz clic para abrir la invitación">
-            <div class="back"></div>
-            <div class="letter">
-                <span class="letter-title">Mis XV</span>
-                <span style="font-family:'Montserrat', sans-serif; font-size:0.9rem; text-transform:uppercase; letter-spacing: 1px;">Priscila Martínez</span>
-            </div>
-            <div class="front"></div>
-            <div class="flap"></div>
-        </div>
-        <div class="instruction">Haz clic para abrir</div>
-    </div>
-
-    <!-- MAIN INVITATION CONTENT -->
-    <div id="main-content">
-        
-        <!-- 1. Hero Section -->
-        <section class="hero" id="home">
-            <div class="hero-content fade-in-element">
-                <h1>Mis XV</h1>
-                <h2>Priscila Martínez</h2>
-                <p>Te invito a compartir este momento tan especial</p>
-            </div>
-            <!-- Optional scrolling down indicator -->
-            <div style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); animation: pulse 2s infinite;">
-                <i class="fa-solid fa-chevron-down" style="font-size: 2rem; color: #fff;"></i>
-            </div>
-        </section>
-
-        <!-- 2. Event Details -->
-        <section class="event-details bg-white" id="details">
-            <h2 class="section-title fade-in-element">Cuándo y Dónde</h2>
-            <div class="details-grid">
-                <!-- Date -->
-                <div class="detail-card fade-in-element">
-                    <i class="fa-regular fa-calendar detail-icon"></i>
-                    <h3>Fecha</h3>
-                    <p>Sábado</p>
-                    <p>11 de Julio del 2026</p>
-                </div>
-                <!-- Time -->
-                <div class="detail-card fade-in-element">
-                    <i class="fa-regular fa-clock detail-icon"></i>
-                    <h3>Hora</h3>
-                    <p>Celebración: 20:00 hrs</p>
-                    <p>Recepción: 21:00 hrs</p>
-                </div>
-                <!-- Location -->
-                <div class="detail-card fade-in-element">
-                    <i class="fa-solid fa-location-dot detail-icon"></i>
-                    <h3>Lugar</h3>
-                    <p>Salón Nueva Luna</p>
-                    <p>De las Industrias, 15900 La Paz, Canelones</p>
-                    <a href="https://www.google.com/maps/search/?api=1&query=Sal%C3%B3n+Nueva+Luna,+De+las+Industrias,+15900+La+Paz,+Canelones" target="_blank" rel="noopener noreferrer" class="btn">Ver ubicación</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- 3. Photo Gallery -->
-        <section class="gallery bg-soft" id="gallery">
-            <h2 class="section-title fade-in-element">Mis Recuerdos</h2>
-            <div class="gallery-grid">
-                <div class="gallery-item fade-in-element">
-                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" alt="Sesión de fotos 1" loading="lazy">
-                </div>
-                <div class="gallery-item fade-in-element" style="transition-delay: 0.1s;">
-                    <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=600&q=80" alt="Sesión de fotos 2" loading="lazy">
-                </div>
-                <div class="gallery-item fade-in-element" style="transition-delay: 0.2s;">
-                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=600&q=80" alt="Sesión de fotos 3" loading="lazy">
-                </div>
-            </div>
-        </section>
-
-        <!-- 4. Countdown Timer -->
-        <section class="countdown-section bg-white" id="countdown">
-            <h2 class="section-title fade-in-element">Faltan</h2>
-            <div class="timer-container fade-in-element" id="timer">
-                <div class="time-box">
-                    <span class="number" id="days">00</span>
-                    <span class="label">Días</span>
-                </div>
-                <div class="time-box">
-                    <span class="number" id="hours">00</span>
-                    <span class="label">Horas</span>
-                </div>
-                <div class="time-box">
-                    <span class="number" id="mins">00</span>
-                    <span class="label">Min</span>
-                </div>
-                <div class="time-box">
-                    <span class="number" id="secs">00</span>
-                    <span class="label">Seg</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- 5. Confirmation Section -->
-        <section class="confirmation bg-soft" id="rsvp">
-            <div class="confirmation-box fade-in-element">
-                <h2 class="section-title" style="margin-bottom: 30px;">Confirmación</h2>
-                <p style="margin-bottom: 15px; font-size: 1.15rem;">Espero contar con tu presencia para que este día sea inolvidable.</p>
-                <p style="margin-bottom: 35px; font-weight: 600; color: var(--primary-dark);">Por favor confirma tu asistencia antes del 01 de Junio.</p>
-                
-                <a href="https://wa.me/59891842501?text=Hola,%20con%20mucho%20gusto%20confirmo%20mi%20asistencia%20a%20los%20XV%20a%C3%B1os%20de%20Priscila%20Mart%C3%ADnez" target="_blank" rel="noopener noreferrer" class="btn btn-gold">
-                    <i class="fa-brands fa-whatsapp whatsapp-icon"></i> Confirmar por WhatsApp
-                </a>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer>
-            <p>💖 “Gracias por acompañarme en este día tan importante”</p>
-        </footer>
-    </div>
     
-    <script src="https://www.youtube.com/iframe_api"></script>
-    <script src="script.js"></script>
+      
+        <!-- Modal musica fondo -->
+        <div id="modalMusica" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+
+      <div class="modal-body">
+
+        <!-- Idiomas -->
+        
+
+        <!-- Bienvenida -->
+        <p class="bienvenida-modal-musica">
+          Bienvenidos a la invitación de        </p>
+
+        <!-- Logo -->
+        
+        <!-- Nombres portada -->
+        
+          <div class="box-nombres-modal-musica">
+            <span class="nombre-1">Priscila Martinez </span>
+            <!-- <span class="ampersand-modal-musica">&</span> -->
+            <!-- <span class="nombre-2"> </span> -->
+          </div>
+
+          <!-- Subtitulo -->
+          <p class="subtitulo-modal-musica">
+            Mis XV años          </p><span class="box-estrella-modal-musica"><img src="recursos-variantes-modelos/138/snow/recursos/img/star-one.png" class="estrella-modal-musica"></span>
+
+        
+        <!-- Aclaración -->
+        <span class="aclara-musica">La música de fondo es parte de la experiencia</span>
+
+        <!-- Botones -->
+        <div class="box-botones-modal-musica">
+
+          <!-- Botón con musica -->
+          <a class="boton boton-con-musica" id="play-music-modal" href="">
+            Ingresar con música          </a>
+
+          <!-- Botón sin musica -->
+          <a class="boton boton-sin-musica" data-dismiss="modal" aria-label="Close" id="" href="">
+            Ingresar sin música          </a>
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+  <img src="recursos-variantes-modelos/138/snow/recursos/img/luna.png" class="luna-modal-musica"></div>
+</div>
+      
+      <!-- Portada -->
+      <!-- Porta completa -->
+<section class="portada portada-completa">
+
+  
+    <!-- Opacidad portada -->
+    <div class="opacidad-portada"></div>
+
+    <!-- Filtro portada tematica -->
+    <div class="filtro-portada-tematica"></div>
+
+    <!-- Portada container -->
+    <div class="portada-container">
+
+      <!-- Contenido portada -->
+      <div class="content-portada">
+
+  <!-- Idiomas -->
+  
+
+  <!-- Logo -->
+  
+  <!-- Contenido -->
+  
+    <!-- Nombres y fecha -->
+    <div class="box-nombres-fecha-portada">
+      
+      <!-- Fecha -->
+      <span class="fecha-portada">
+        11.07.2026      </span>
+
+      <!-- Nombres -->
+      <div class="nombres">
+        <span class="nombre-1">Priscila Martinez </span>
+        <!-- <span class="ampersand-portada">&</span> -->
+        <!-- <span class="nombre-2"> </span> -->
+      </div>
+
+      <!-- Subtitulo -->
+      <p class="subtitulo-portada">
+        Mis XV años      </p>
+
+    <img src="recursos-variantes-modelos/138/snow/recursos/img/star-one.png" class="estrella-portada"></div>
+  
+  <!-- Frase -->
+  <div class="box-frase-portada">
+    <img src="recursos-variantes-modelos/138/snow/recursos/img/comilla.svg" class="comilla-portada comilla-apertura-portada injectable"><p class="frase-portada">
+      Te espero para compartir la alegría de esa noche que será para mi mágica, inolvidable y única.    </p><img src="recursos-variantes-modelos/138/snow/recursos/img/comilla.svg" class="comilla-portada comilla-cierre-portada injectable">
+  </div>
+
+</div>
+    </div>
+
+  
+<img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="divisor-estrellas"><img src="recursos-variantes-modelos/138/snow/recursos/img/luna.png" class="luna-superior-portada"></section>
+
+      <!-- Cuenta Regresiva -->
+      <section class="seccion-principal cuenta-regresiva">
+
+    <div class="box-cta-regresiva">
+
+      <!-- Falta -->
+      <span class="falta">Falta</span>
+
+      <!-- Reloj -->
+      <div id="reloj" class="reloj reloj-cta-regresiva">
+
+        <div id="dias" class="reloj-col">
+          <span class="number"></span>
+          <span class="time time-dias">días</span>
+        </div>
+
+        <div id="horas" class="reloj-col">
+          <span class="number"></span>
+          <span class="time time-horas">hs</span>
+        </div>
+
+        <div id="minutos" class="reloj-col">
+          <span class="number"></span>
+          <span class="time time-minutos">min</span>
+        </div>
+
+        <div id="segundos" class="reloj-col no-border">
+          <span class="number"></span>
+          <span class="time time-segundos">seg</span>
+        </div>
+
+      </div>
+
+    </div>
+
+<img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="divisor-estrellas"><img src="recursos-variantes-modelos/138/snow/recursos/img/star-vertical.png" class="estrella-lateral-izquierda"><img src="recursos-variantes-modelos/138/snow/recursos/img/luna-lateral.png" class="luna-lateral-derecha"></section>
+      <!-- Grupo de invitados (opcional por versión y slug_grupo) -->
+      
+
+
+<section class="seccion-principal bloque-grupo-invitados">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-md-10">
+
+        <div class="card-grupo-invitados">
+          <div class="card-content">
+
+            <!-- Cantidad de invitados + acompañantes -->
+            <div class="pases-total">2</div>
+
+            <!-- Titulo -->
+            <h3 class="titulo-grupo">
+              Invitados            </h3>
+
+            <!-- Acompañantes -->
+            
+            <!-- Lista de invitados -->
+                          <ul class="lista-invitados">
+                                  <li class="invitado-item">Lola Pérez</li>
+                                  <li class="invitado-item">Tomás Pérez</li>
+                              </ul>
+            
+            <!-- Mensaje del grupo -->
+                          <p class="mensaje-grupo">Nos encanta compartir este momento con vos. ¡Te esperamos!</p>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+<img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="divisor-estrellas"></section>
+
+
+      <!-- Ceremonia - Fiesta-->
+      
+<section class="seccion-principal cols-eventos">
+
+      
+
+            <!-- Fiesta -->
+      <div class="col-evento col-fiesta">
+
+          <!-- Box -->
+          <div class="box-col box-col-fiesta">
+
+            <!-- Animación -->
+            <div class="anim-col-fiesta anim-col-evento"></div>
+
+            <!-- Titulo -->
+            <h3 class="title-col-evento title-col-fiesta">
+              Celebración            </h3>
+
+            <!-- Info -->
+            <div class="info-col info-col-fiesta">
+
+              <!-- Dia -->
+              <div class="info-box info-box-fiesta">
+                <h6>Día</h6>
+                <p>Sábado 11 de Julio - 21hs</p>
+                <a href="#" class="boton addeventatc">
+                  <span class="nameBtn">Agendar</span>
+                  <span class="start">2026-07-11 21:00:00</span>
+                  <span class="end">2026-07-12 04:00:00</span>
+                  <span class="timezone">America/Montevideo</span>
+                  <span class="title">Priscila Martinez ::: Mis 15 años :::  (Celebración)</span>
+                </a>
+              </div>
+
+                            <!-- [FLEX] Lugar + Dirección unificados en un solo bloque -->
+              <!-- No muestra botón de confirmación aquí (se muestra en confirmacion.php) -->
+              <div class="info-box info-box-fiesta info-box-unificado">
+                <h6>Lugar</h6>
+                <p>Salón Nueva Luna</p>
+                <p class="info-direccion">De las Industrias, La Paz, Canelones</p>
+                <a href="https://maps.app.goo.gl/4B3YsVqL4EYVVf7i8" target="_blank" data-evento="Fiesta" class="boton modal-como-llegar">¿Cómo llegar?</a>
+              </div>
+              
+            <img src="recursos-variantes-modelos/138/snow/recursos/img/adorno-evento.png" class="adorno-titulo-evento"></div>
+
+          </div>
+
+      </div>
+      
+<img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="divisor-estrellas"><img src="recursos-variantes-modelos/138/snow/recursos/img/star-vertical.png" class="estrella-lateral-derecha"><img src="recursos-variantes-modelos/138/snow/recursos/img/luna-lateral.png" class="luna-lateral-izquierda"></section>
+
+      <!-- [FLEX] Sección de confirmación con botón único (solo visible si Flex + confirmación activa) -->
+      
+<section class="seccion-principal confirmacion-asistencia">
+
+  <div class="box-confirmacion">
+
+    <h2 class="title">Confirmación de asistencia</h2>
+    
+    <p class="subtitle">Es importante que confirmes tu asistencia</p>
+
+    <a href="https://wa.me/59891842501?text=%C2%A1Hola%21%20Quiero%20confirmar%20mi%20asistencia%20a%20los%2015%20a%C3%B1os%20de%20Priscila%20%F0%9F%8E%89" target="_blank" class="boton boton-confirmacion">
+      Confirmar asistencia    </a>
+
+  </div>
+
+<img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="divisor-estrellas"></section>
+
+      <!-- Galeria -->
+      <section class="seccion-principal galeria">
+
+  <!-- Box -->
+  <div class="box-galeria">
+
+    <!-- Titulo -->
+    <h2 class="title">Un recorrido de estos 15 años</h2>
+
+    <!-- Subtitulo -->
+    <p class="subtitle">Junto a personas que son muy importantes en mi vida</p>
+
+    <!-- Animación -->
+    <div class="anim-galeria"></div>
+
+  </div>
+
+  <!-- Galeria -->
+  <div class="content-fotos">
+
+    <!-- Carrusel -->
+    <div class="carrusel galeria-carrusel">
+
+
+      
+
+        
+
+        
+
+        
+
+        
+        <!-- Impmrimo el bloque con la imagen -->
+
+        <div>
+          <div class="polaroid">
+
+            <a href="modelo-invitacion/138/img/galeria/1.jpg" data-fancybox="galeria">
+              <img src="modelo-invitacion/138/img/galeria/1.jpg" alt="">
+            </a>
+
+          </div>
+        </div>
+
+      
+        <!-- Impmrimo el bloque con la imagen -->
+
+        <div>
+          <div class="polaroid">
+
+            <a href="modelo-invitacion/138/img/galeria/2.jpg" data-fancybox="galeria">
+              <img src="modelo-invitacion/138/img/galeria/2.jpg" alt="">
+            </a>
+
+          </div>
+        </div>
+
+      
+        <!-- Impmrimo el bloque con la imagen -->
+
+        <div>
+          <div class="polaroid">
+
+            <a href="modelo-invitacion/138/img/galeria/3.jpg" data-fancybox="galeria">
+              <img src="modelo-invitacion/138/img/galeria/3.jpg" alt="">
+            </a>
+
+          </div>
+        </div>
+
+      
+        <!-- Impmrimo el bloque con la imagen -->
+
+        <div>
+          <div class="polaroid">
+
+            <a href="modelo-invitacion/138/img/galeria/4.jpg" data-fancybox="galeria">
+              <img src="modelo-invitacion/138/img/galeria/4.jpg" alt="">
+            </a>
+
+          </div>
+        </div>
+
+      
+
+    </div>
+
+  </div>
+
+
+<img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="divisor-estrellas"></section>
+      <!-- Fiesta-->
+      <section class="seccion-principal fiesta">
+
+  <!-- Titulo y Subtitulo -->
+  <div class="box-fiesta">
+    <h2 class="title">Fiesta</h2>
+    <p class="subtitle">Hagamos juntos una fiesta épica. Aquí algunos detalles a tener en cuenta.</p>
+  </div>
+
+  <!-- Cards -->
+  <div class="box-cards-fiesta">
+
+    <!-- Canciones -->
+    <div class="col-md-4 card-fiesta card-fiesta-canciones">
+
+      <div class="content-card-fiesta">
+
+        <div class="box-col-card-fiesta">
+
+          <h3 class="title-card-fiesta">Música</h3>
+
+          <div class="anim-musica anim-card-fiesta"></div>
+
+          <p class="text-card-fiesta">
+            ¿Cuál es la canción que no debe faltar en la PlayList de la fiesta?          </p>
+
+          <a href="https://wa.me/59891842501?text=%C2%A1Hola%21%20Te%20quiero%20sugerir%20una%20canci%C3%B3n%20para%20la%20fiesta%20de%20Priscila%3A%20" target="_blank" class="boton">Sugerir canción</a>
+
+        </div>
+
+      <img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="adorno-card-fiesta"></div>
+
+    </div>
+
+
+    <!-- Dress Code -->
+    <div class="col-md-4 card-fiesta card-fiesta-vestuario">
+
+      <div class="content-card-fiesta">
+
+        <div class="box-col-card-fiesta">
+
+          <h3 class="title-card-fiesta">Dress Code</h3>
+
+          <div class="anim-vestuario anim-card-fiesta"></div>
+
+          <p class="text-card-fiesta">
+            Una orientación para <br> tu vestuario          </p>
+
+          <a href="#" class="boton modal-vestuario">
+            Ver más          </a>
+        </div>
+
+      <img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="adorno-card-fiesta"></div>
+
+    </div>
+
+
+    <!-- Notas -->
+    <div class="col-md-4 card-fiesta card-fiesta-tips">
+
+      <div class="content-card-fiesta">
+
+        <div class="box-col-card-fiesta">
+
+          <h3 class="title-card-fiesta">Tips y Notas</h3>
+
+          <div class="anim-tips anim-card-fiesta"></div>
+
+          <p class="text-card-fiesta">
+            Información adicional <br> para tener en cuenta          </p>
+
+          <a href="#" class="boton modal-tips">
+            + Info          </a>
+        </div>
+
+      <img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="adorno-card-fiesta"></div>
+
+    </div>
+
+    <!-- Traslados -->
+    <!-- <div class="col-md-4 card-fiesta card-fiesta-traslados">
+
+      <div class="content-card-fiesta">
+
+        <div class="box-col-card-fiesta">
+
+          <h3 class="title-card-fiesta"></h3>
+
+          <div class="anim-traslados anim-card-fiesta"></div>
+
+          <p class="text-card-fiesta">
+                      </p>
+
+          <a href="#" class="boton modal-traslados">
+                      </a>
+        </div>
+
+      <img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="adorno-card-fiesta"></div>
+
+    </div> -->
+
+    <!-- Alojamientos -->
+    <!-- <div class="col-md-4 card-fiesta card-fiesta-alojamientos">
+
+      <div class="content-card-fiesta">
+
+        <div class="box-col-card-fiesta">
+
+          <h3 class="title-card-fiesta"></h3>
+
+          <div class="anim-alojamientos anim-card-fiesta"></div>
+
+          <p class="text-card-fiesta">
+                      </p>
+
+          <a href="#" class="boton modal-alojamientos">
+                      </a>
+        </div>
+
+      <img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="adorno-card-fiesta"></div>
+
+    </div> -->
+    
+
+  </div>
+
+<img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="divisor-estrellas"><img src="recursos-variantes-modelos/138/snow/recursos/img/star-vertical.png" class="estrella-lateral-izquierda"><img src="recursos-variantes-modelos/138/snow/recursos/img/luna-lateral.png" class="luna-lateral-derecha"></section>
+      <!-- Regalos-->
+      <section class="seccion-principal regalos">
+
+  <div class="box-regalos">
+
+    <h2 class="title">Regalos</h2>
+    
+    <p class="subtitle">Si deseas regalarme algo más que tu hermosa presencia...</p>
+
+    <div class="anim-regalos"></div>
+
+    <a href="#" class="boton modal-regalos">Datos bancarios</a>
+
+  </div>
+
+<img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="divisor-estrellas"></section>
+      <!-- Instagram-->
+      <section class="seccion-principal instagram">
+
+  <div class="box-instagram">
+
+    <h2 class="title">Una gran fiesta junto a vos</h2>
+    
+    <p class="subtitle">Compartí tus fotos y videos de ese hermoso día</p>
+
+    <div class="anim-instagram"></div>
+
+    <a target="_blank" class="hashtag" href="https://www.instagram.com/">#15flor</a>
+
+    <a target="_blank" href="https://www.instagram.com/" class="boton">Ver en Instagram</a>
+
+  </div>
+
+<img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="divisor-estrellas"><img src="recursos-variantes-modelos/138/snow/recursos/img/star-vertical.png" class="estrella-lateral-derecha"><img src="recursos-variantes-modelos/138/snow/recursos/img/luna-lateral.png" class="luna-lateral-izquierda"></section>
+      <!-- Footer-->
+      <section class="seccion-principal footer">
+
+  <!-- Columna footer nombres / logo -->
+  <div class="col-md-6">
+
+    <!-- Logo -->
+    
+    <!-- Nombres / subtitulo -->
+    
+      <div class="col-nombres-footer">
+
+        <!-- Nombres -->
+        <div class="nombres">
+          <span class="nombre-1">Priscila Martinez </span>
+          <!-- <span class="ampersand-footer">&</span> -->
+          <!-- <span class="nombre-2"> </span> -->
+        </div>
+
+        <p class="subtitulo-footer">
+          Mis XV años        </p>
+
+      </div>
+    
+  </div>
+
+
+  <!-- Columna footer acciones -->
+  <div class="col-md-6">
+
+    <ul class="lista-acciones-footer">
+
+              <li>
+          <a href="https://wa.me/59891842501?text=%C2%A1Hola%21%20Quiero%20confirmar%20mi%20asistencia%20a%20los%2015%20a%C3%B1os%20de%20Priscila%20%F0%9F%8E%89" target="_blank">Confirmar asistencia</a>
+        </li>
+      
+      <li>
+        <a href="https://wa.me/59891842501?text=%C2%A1Hola%21%20Te%20quiero%20sugerir%20una%20canci%C3%B3n%20para%20la%20fiesta%20de%20Priscila%3A%20" target="_blank">Sugerir canción</a>
+      </li>
+
+      <li>
+        <div title="" class="addeventatc">
+          <span class="nameBtn">Agendar Celebración</span>
+          <span class="start">2026-07-11 21:00:00</span>
+          <span class="end">2026-07-12 04:00:00</span>
+          <span class="timezone">America/Montevideo</span>
+          <span class="title">Priscila Martinez ::: Mis 15 años :::  (Celebración)</span>
+
+        </div>
+      </li>
+
+      
+    </ul>
+
+  </div>
+
+<img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="divisor-estrellas"></section>
+      <!-- Firma-->
+      <footer class="seccion-principal footer-firma">
+
+  <div class="box-footer">
+
+    
+    <p>
+      Desarrollado con <span class="heart">&#10084;</span> por      <a href="https://www.fixdate.io/uy/" target="_blank">
+        <img class="injectable firma-footer" src="modelo-invitacion/138/img/fixdate-firma.svg" alt="">
+      </a>
+    </p>
+
+
+  </div>
+<img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="divisor-estrellas"></footer>
+
+
+<!-- Musica -->
+
+
+  <div id="controlador-musica">
+    <div id="play-pause-music" data-estado-music="pause" class="music-anim-icon"></div>
+  </div>
+
+  <div id="player-musica-fondo"></div>
+
+
+
+
+
+<!-- Si esta en modo "Modelo" muestro el repdorductor de musica sin musica -->
+
+      <!-- Modal asistencia-->
+      
+<div id="modalAsistencia" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-md modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-content-2 box-col">
+        
+        <div class="img-top-modal d-flex justify-content-center align-items-start">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        <img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="adorno-modal adorno-modal-top"></div>
+
+        <div class="modal-body p-0">
+          
+<!-- Contenedor del Formulario -->
+<div id="form-asistencia-flex"></div>
+
+<!-- JS del Formulario Flex -->
+<script src="services/form-asistencia/js/form-utils.js?v=1781914995"></script>
+<script src="services/form-asistencia/js/form-renderer.js?v=1781914995"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Inicializar formulario flex
+    if (typeof FormAsistenciaFlex !== 'undefined' && FormAsistenciaFlex.FormRenderer) {
+        new FormAsistenciaFlex.FormRenderer({
+            containerId: 'form-asistencia-flex',
+            config: {"activo":true,"usar_flex":true,"simular_grupo":true,"eventos":{"ceremonia":{"habilitado":false,"etiqueta":{"es":"Ceremonia","en":"Ceremony","pt":"Cerimônia"}},"celebracion":{"habilitado":true,"etiqueta":{"es":"Celebración","en":"Celebration","pt":"Celebração"}}},"campos":[{"id":"restricciones_alimentarias","origen":"biblioteca","paso":3,"orden":1,"requerido":false,"condicion":{"tipo":"evento","objetivo":"celebracion","valor":"si"},"contexto_invitacion":{"libre":true,"grupo":true},"config":{"etiqueta":{"es":"Restricciones Alimentarias","en":"Food Restrictions","pt":"Restrições Alimentares"},"placeholder":{"es":"Indícanos si necesita algún menú especial, celíaco, vegano, vegetariano, etc.","en":"Let us know if you need any special menu, celiac, vegan, vegetarian, etc.","pt":"Indique-nos se precisa de algum menu especial, celíaco, vegano, vegetariano, etc."},"descripcion_interna":"Solicita un textto abierto sobre restricciones almentarias","opciones":[],"requerido_default":0,"id":"restricciones_alimentarias","tipo":"textarea"}},{"id":"autobus_simple","origen":"biblioteca","paso":3,"orden":2,"requerido":true,"condicion":{"tipo":"evento","objetivo":"celebracion","valor":"si"},"contexto_invitacion":{"libre":true,"grupo":true},"config":{"etiqueta":{"es":"¿Necesitas autobús?","en":"Do you need a bus?","pt":"Você precisa de ônibus?"},"placeholder":{"es":"","en":"","pt":""},"descripcion_interna":"Decide si necesita o no autobus","opciones":[{"valor":"1","texto":{"es":"Si","en":"Yes","pt":"Sim"}},{"valor":"2","texto":{"es":"No","en":"No","pt":"Não"}}],"requerido_default":1,"id":"autobus_simple","tipo":"radio"}},{"id":"mensaje_quincieanera","origen":"biblioteca","paso":3,"orden":3,"requerido":false,"condicion":null,"contexto_invitacion":{"libre":true,"grupo":true},"config":{"etiqueta":{"es":"Mensaje para la quinceañera","en":"Message for the girl","pt":"Mensagem para a debutante"},"placeholder":{"es":"Puedes dejarle un mensaje de cariño","en":"You can leave her a loving message","pt":"Você pode deixar uma mensagem de carinho"},"descripcion_interna":"Mensaje para quinciañera","opciones":[],"requerido_default":0,"id":"mensaje_quincieanera","tipo":"textarea"}}],"version":1},
+            idInv: 0,
+            idGrupo: null,
+            invitados: ["Lola Pérez","Tomás Pérez"],
+            aceptaAcompanante: false,
+            maxAcompanantes: 0,
+            idioma: "es-UY",
+            textosGlobales: {"quien_confirma":{"es":"¿Quién está confirmando?","en":"Who is confirming?","pt":"Quem está confirmando?","it":"Chi sta confermando?","de":"Wer bestätigt?","ar":"من يؤكد الحضور؟","al":"Kush po konfirmon?","bs":"Ko potvrđuje?","bg":"Кой потвърждава?","ca":"Qui està confirmant?","dk":"Hvem bekræfter?","eu":"Nork ari da baieztatzen?","fr":"Qui confirme ?","fi":"Kuka vahvistaa?","gl":"Quen está confirmando?","el":"Ποιος επιβεβαιώνει;","nl":"Wie bevestigt?","no":"Hvem bekrefter?","pl":"Kto potwierdza?","ro":"Cine confirmă?","ru":"Кто подтверждает?","sv":"Vem bekräftar?","ua":"Хто підтверджує?","va":"Qui està confirmant?"},"tu_nombre":{"es":"Tu nombre","en":"Your name","pt":"Seu nome","it":"Il tuo nome","de":"Dein Name","ar":"اسمك","al":"Emri yt","bs":"Tvoje ime","bg":"Твоето име","ca":"El teu nom","dk":"Dit navn","eu":"Zure izena","fr":"Votre nom","fi":"Nimesi","gl":"O teu nome","el":"Το όνομά σας","nl":"Je naam","no":"Ditt navn","pl":"Twoje imię","ro":"Numele tău","ru":"Ваше имя","sv":"Ditt namn","ua":"Ваше ім'я","va":"El teu nom"},"placeholder_nombre":{"es":"Escribe tu nombre completo","en":"Enter your full name","pt":"Digite seu nome completo","it":"Inserisci il tuo nome completo","de":"Gib deinen vollständigen Namen ein","ar":"أدخل اسمك الكامل","al":"Shkruaj emrin e plotë","bs":"Unesite puno ime","bg":"Въведете пълното си име","ca":"Escriu el teu nom complet","dk":"Skriv dit fulde navn","eu":"Idatzi zure izen osoa","fr":"Entrez votre nom complet","fi":"Kirjoita koko nimesi","gl":"Escribe o teu nome completo","el":"Εισάγετε το πλήρες όνομά σας","nl":"Vul je volledige naam in","no":"Skriv inn ditt fulle navn","pl":"Wpisz swoje pełne imię","ro":"Scrie numele tău complet","ru":"Введите ваше полное имя","sv":"Skriv ditt fullständiga namn","ua":"Введіть ваше повне ім'я","va":"Escriu el teu nom complet"},"si_asisto":{"es":"Sí, asistiré","en":"Yes, I will attend","pt":"Sim, vou comparecer","it":"Sì, parteciperò","de":"Ja, ich werde teilnehmen","ar":"نعم، سأحضر","al":"Po, do të marr pjesë","bs":"Da, dolazim","bg":"Да, ще присъствам","ca":"Sí, hi assistiré","dk":"Ja, jeg deltager","eu":"Bai, joango naiz","fr":"Oui, je serai présent","fi":"Kyllä, osallistun","gl":"Si, asistirei","el":"Ναι, θα παρευρεθώ","nl":"Ja, ik zal aanwezig zijn","no":"Ja, jeg kommer","pl":"Tak, wezmę udział","ro":"Da, voi participa","ru":"Да, я приду","sv":"Ja, jag kommer","ua":"Так, я прийду","va":"Sí, hi assistiré"},"no_asisto":{"es":"No asistiré","en":"I will not attend","pt":"Não vou comparecer","it":"Non parteciperò","de":"Ich werde nicht teilnehmen","ar":"لن أحضر","al":"Nuk do të marr pjesë","bs":"Ne dolazim","bg":"Няма да присъствам","ca":"No hi assistiré","dk":"Nej, jeg deltager ikke","eu":"Ez, ez naiz joango","fr":"Non, je ne serai pas présent","fi":"En osallistu","gl":"Non asistirei","el":"Δεν θα παρευρεθώ","nl":"Nee, ik zal niet aanwezig zijn","no":"Nei, jeg kommer ikke","pl":"Nie wezmę udziału","ro":"Nu voi participa","ru":"Нет, я не приду","sv":"Nej, jag kommer inte","ua":"Ні, я не прийду","va":"No hi assistiré"},"anterior":{"es":"Anterior","en":"Previous","pt":"Anterior","it":"Precedente","de":"Zurück","ar":"السابق","al":"I mëparshëm","bs":"Prethodno","bg":"Назад","ca":"Anterior","dk":"Forrige","eu":"Aurrekoa","fr":"Précédent","fi":"Edellinen","gl":"Anterior","el":"Προηγούμενο","nl":"Vorige","no":"Forrige","pl":"Poprzedni","ro":"Anterior","ru":"Назад","sv":"Föregående","ua":"Назад","va":"Anterior"},"siguiente":{"es":"Siguiente","en":"Next","pt":"Próximo","it":"Successivo","de":"Weiter","ar":"التالي","al":"Tjetër","bs":"Sljedeće","bg":"Напред","ca":"Següent","dk":"Næste","eu":"Hurrengoa","fr":"Suivant","fi":"Seuraava","gl":"Seguinte","el":"Επόμενο","nl":"Volgende","no":"Neste","pl":"Następny","ro":"Următor","ru":"Далее","sv":"Nästa","ua":"Далі","va":"Següent"},"confirmar":{"es":"Enviar","en":"Send","pt":"Enviar","it":"Invia","de":"Senden","ar":"إرسال","al":"Dërgo","bs":"Pošalji","bg":"Изпрати","ca":"Enviar","dk":"Send","eu":"Bidali","fr":"Envoyer","fi":"Lähetä","gl":"Enviar","el":"Αποστολή","nl":"Verzenden","no":"Send","pl":"Wyślij","ro":"Trimite","ru":"Отправить","sv":"Skicka","ua":"Надіслати","va":"Enviar"},"enviando":{"es":"Enviando...","en":"Sending...","pt":"Enviando...","it":"Invio in corso...","de":"Wird gesendet...","ar":"جارٍ الإرسال...","al":"Duke dërguar...","bs":"Slanje...","bg":"Изпращане...","ca":"Enviant...","dk":"Sender...","eu":"Bidaltzen...","fr":"Envoi en cours...","fi":"Lähetetään...","gl":"Enviando...","el":"Αποστολή...","nl":"Verzenden...","no":"Sender...","pl":"Wysyłanie...","ro":"Se trimite...","ru":"Отправка...","sv":"Skickar...","ua":"Надсилання...","va":"Enviant..."},"titulo_exito":{"es":"¡Gracias!","en":"Thank you!","pt":"Obrigado!","it":"Grazie!","de":"Danke!","ar":"شكراً!","al":"Faleminderit!","bs":"Hvala!","bg":"Благодаря!","ca":"Gràcies!","dk":"Tak!","eu":"Eskerrik asko!","fr":"Merci !","fi":"Kiitos!","gl":"Grazas!","el":"Ευχαριστούμε!","nl":"Dank je!","no":"Takk!","pl":"Dziękujemy!","ro":"Mulțumim!","ru":"Спасибо!","sv":"Tack!","ua":"Дякуємо!","va":"Gràcies!"},"mensaje_exito":{"es":"Tu confirmación ha sido registrada correctamente","en":"Your confirmation has been registered successfully","pt":"Sua confirmação foi registrada com sucesso","it":"La tua conferma è stata registrata correttamente","de":"Ihre Bestätigung wurde erfolgreich registriert","ar":"تم تسجيل تأكيدك بنجاح","al":"Konfirmimi juaj është regjistruar me sukses","bs":"Vaša potvrda je uspješno registrirana","bg":"Потвърждението ви е регистрирано успешно","ca":"La teva confirmació s'ha registrat correctament","dk":"Din bekræftelse er registreret","eu":"Zure baieztapena behar bezala erregistratu da","fr":"Votre confirmation a été enregistrée avec succès","fi":"Vahvistuksesi on rekisteröity onnistuneesti","gl":"A túa confirmación foi rexistrada correctamente","el":"Η επιβεβαίωσή σας καταχωρήθηκε επιτυχώς","nl":"Je bevestiging is succesvol geregistreerd","no":"Din bekreftelse er registrert","pl":"Twoje potwierdzenie zostało zarejestrowane","ro":"Confirmarea ta a fost înregistrată cu succes","ru":"Ваше подтверждение было успешно зарегистрировано","sv":"Din bekräftelse har registrerats","ua":"Ваше підтвердження було успішно зареєстровано","va":"La teua confirmació s'ha registrat correctament"},"campo_requerido":{"es":"Este campo es obligatorio","en":"This field is required","pt":"Este campo é obrigatório","it":"Questo campo è obbligatorio","de":"Dieses Feld ist erforderlich","ar":"هذا الحقل مطلوب","al":"Kjo fushë është e detyrueshme","bs":"Ovo polje je obavezno","bg":"Това поле е задължително","ca":"Aquest camp és obligatori","dk":"Dette felt er påkrævet","eu":"Eremu hau derrigorrezkoa da","fr":"Ce champ est obligatoire","fi":"Tämä kenttä on pakollinen","gl":"Este campo é obrigatorio","el":"Αυτό το πεδίο είναι υποχρεωτικό","nl":"Dit veld is verplicht","no":"Dette feltet er påkrevd","pl":"To pole jest wymagane","ro":"Acest câmp este obligatoriu","ru":"Это поле обязательно","sv":"Detta fält är obligatoriskt","ua":"Це поле є обов'язковим","va":"Este camp és obligatori"},"numero_minimo":{"es":"El valor debe ser 0 o mayor","en":"Value must be 0 or greater","pt":"O valor deve ser 0 ou maior","it":"Il valore deve essere 0 o superiore","de":"Der Wert muss 0 oder größer sein","ar":"يجب أن تكون القيمة 0 أو أكبر","al":"Vlera duhet të jetë 0 ose më e madhe","bs":"Vrijednost mora biti 0 ili veća","bg":"Стойността трябва да е 0 или повече","ca":"El valor ha de ser 0 o superior","dk":"Værdien skal være 0 eller højere","eu":"Balioak 0 edo handiagoa izan behar du","fr":"La valeur doit être 0 ou supérieure","fi":"Arvon on oltava 0 tai suurempi","gl":"O valor debe ser 0 ou maior","el":"Η τιμή πρέπει να είναι 0 ή μεγαλύτερη","nl":"De waarde moet 0 of hoger zijn","no":"Verdien må være 0 eller høyere","pl":"Wartość musi wynosić 0 lub więcej","ro":"Valoarea trebuie să fie 0 sau mai mare","ru":"Значение должно быть 0 или больше","sv":"Värdet måste vara 0 eller högre","ua":"Значення має бути 0 або більше","va":"El valor ha de ser 0 o superior"},"evento_requerido":{"es":"Debes indicar a qué evento asistirás","en":"You must indicate which event you will attend","pt":"Você deve indicar a qual evento comparecerá","it":"Devi indicare a quale evento parteciperai","de":"Du musst angeben, an welchem Event du teilnimmst","ar":"يجب أن تحدد الحدث الذي ستحضره","al":"Duhet të tregoni në cilin aktivitet do të merrni pjesë","bs":"Morate navesti koji događaj ćete prisustvovati","bg":"Трябва да посочите кое събитие ще посетите","ca":"Has d'indicar a quin esdeveniment assistiràs","dk":"Du skal angive, hvilken begivenhed du deltager i","eu":"Zein ekitaldira joango zaren adierazi behar duzu","fr":"Vous devez indiquer à quel événement vous assisterez","fi":"Sinun on ilmoitettava, mihin tapahtumaan osallistut","gl":"Debes indicar a que evento asistirás","el":"Πρέπει να υποδείξετε σε ποια εκδήλωση θα παρευρεθείτε","nl":"Je moet aangeven welk evenement je bijwoont","no":"Du må oppgi hvilket arrangement du deltar på","pl":"Musisz wskazać, w którym wydarzeniu weźmiesz udział","ro":"Trebuie să indici la ce eveniment vei participa","ru":"Укажите, на какое мероприятие вы придёте","sv":"Du måste ange vilket evenemang du kommer att delta i","ua":"Вкажіть, на яку подію ви прийдете","va":"Has d'indicar a quin esdeveniment assistiràs"},"invitado_requerido":{"es":"Debes seleccionar quién está confirmando","en":"You must select who is confirming","pt":"Você deve selecionar quem está confirmando","it":"Devi selezionare chi sta confermando","de":"Du musst auswählen, wer bestätigt","ar":"يجب أن تختار من يؤكد الحضور","al":"Duhet të zgjidhni kush po konfirmon","bs":"Morate odabrati ko potvrđuje","bg":"Трябва да изберете кой потвърждава","ca":"Has de seleccionar qui està confirmant","dk":"Du skal vælge, hvem der bekræfter","eu":"Nork baieztatzen duen hautatu behar duzu","fr":"Vous devez sélectionner qui confirme","fi":"Sinun on valittava, kuka vahvistaa","gl":"Debes seleccionar quen está confirmando","el":"Πρέπει να επιλέξετε ποιος επιβεβαιώνει","nl":"Je moet selecteren wie bevestigt","no":"Du må velge hvem som bekrefter","pl":"Musisz wybrać, kto potwierdza","ro":"Trebuie să selectezi cine confirmă","ru":"Выберите, кто подтверждает","sv":"Du måste välja vem som bekräftar","ua":"Виберіть, хто підтверджує","va":"Has de seleccionar qui està confirmant"},"seleccionar":{"es":"Seleccionar...","en":"Select...","pt":"Selecionar...","it":"Seleziona...","de":"Auswählen...","ar":"اختر...","al":"Zgjidhni...","bs":"Odaberite...","bg":"Изберете...","ca":"Seleccionar...","dk":"Vælg...","eu":"Hautatu...","fr":"Sélectionner...","fi":"Valitse...","gl":"Seleccionar...","el":"Επιλέξτε...","nl":"Selecteer...","no":"Velg...","pl":"Wybierz...","ro":"Selectează...","ru":"Выбрать...","sv":"Välj...","ua":"Обрати...","va":"Seleccionar..."},"error_envio":{"es":"Error al enviar","en":"Error sending","pt":"Erro ao enviar","it":"Errore durante l'invio","de":"Fehler beim Senden","ar":"خطأ في الإرسال","al":"Gabim gjatë dërgimit","bs":"Greška pri slanju","bg":"Грешка при изпращане","ca":"Error en enviar","dk":"Fejl ved afsendelse","eu":"Errorea bidaltzean","fr":"Erreur d'envoi","fi":"Virhe lähetyksessä","gl":"Erro ao enviar","el":"Σφάλμα αποστολής","nl":"Fout bij verzenden","no":"Feil ved sending","pl":"Błąd wysyłania","ro":"Eroare la trimitere","ru":"Ошибка отправки","sv":"Fel vid sändning","ua":"Помилка надсилання","va":"Error en enviar"},"error_conexion":{"es":"Error de conexión","en":"Connection error","pt":"Erro de conexão","it":"Errore di connessione","de":"Verbindungsfehler","ar":"خطأ في الاتصال","al":"Gabim lidhje","bs":"Greška veze","bg":"Грешка при свързване","ca":"Error de connexió","dk":"Forbindelsesfejl","eu":"Konexio errorea","fr":"Erreur de connexion","fi":"Yhteysvirhe","gl":"Erro de conexión","el":"Σφάλμα σύνδεσης","nl":"Verbindingsfout","no":"Tilkoblingsfeil","pl":"Błąd połączenia","ro":"Eroare de conexiune","ru":"Ошибка подключения","sv":"Anslutningsfel","ua":"Помилка з'єднання","va":"Error de connexió"},"formulario_actualizado":{"es":"El formulario ha sido actualizado. Por favor, recarga la página para ver los cambios.","en":"The form has been updated. Please reload the page to see the changes.","pt":"O formulário foi atualizado. Por favor, recarregue a página para ver as alterações.","it":"Il modulo è stato aggiornato. Ricarica la pagina per vedere le modifiche.","de":"Das Formular wurde aktualisiert. Bitte laden Sie die Seite neu, um die Änderungen zu sehen.","ar":"تم تحديث النموذج. يرجى إعادة تحميل الصفحة لرؤية التغييرات.","al":"Formulari u përditësua. Ju lutem ringarkoni faqen për të parë ndryshimet.","bs":"Obrazac je ažuriran. Molimo osvježite stranicu da vidite promjene.","bg":"Формулярът беше актуализиран. Моля, презаредете страницата, за да видите промените.","ca":"El formulari s'ha actualitzat. Si us plau, recarrega la pàgina per veure els canvis.","dk":"Formularen er blevet opdateret. Genindlæs siden for at se ændringerne.","eu":"Formularioa eguneratu da. Mesedez, kargatu berriz orria aldaketak ikusteko.","fr":"Le formulaire a été mis à jour. Veuillez recharger la page pour voir les modifications.","fi":"Lomake on päivitetty. Lataa sivu uudelleen nähdäksesi muutokset.","gl":"O formulario foi actualizado. Por favor, recarga a páxina para ver os cambios.","el":"Η φόρμα ενημερώθηκε. Παρακαλώ ανανεώστε τη σελίδα για να δείτε τις αλλαγές.","nl":"Het formulier is bijgewerkt. Vernieuw de pagina om de wijzigingen te zien.","no":"Skjemaet er oppdatert. Vennligst last inn siden på nytt for å se endringene.","pl":"Formularz został zaktualizowany. Proszę odświeżyć stronę, aby zobaczyć zmiany.","ro":"Formularul a fost actualizat. Vă rugăm să reîncărcați pagina pentru a vedea modificările.","ru":"Форма была обновлена. Пожалуйста, перезагрузите страницу, чтобы увидеть изменения.","sv":"Formuläret har uppdaterats. Vänligen ladda om sidan för att se ändringarna.","ua":"Форму оновлено. Будь ласка, перезавантажте сторінку, щоб побачити зміни.","va":"El formulari s'ha actualitzat. Per favor, recarrega la pàgina per veure els canvis."},"boton_actualizar":{"es":"Actualizar página","en":"Reload page","pt":"Recarregar página","it":"Ricarica pagina","de":"Seite neu laden","ar":"إعادة تحميل الصفحة","al":"Ringarko faqen","bs":"Osvježi stranicu","bg":"Презареди страницата","ca":"Recarregar pàgina","dk":"Genindlæs side","eu":"Orria kargatu berriz","fr":"Recharger la page","fi":"Lataa sivu uudelleen","gl":"Recargar páxina","el":"Ανανέωση σελίδας","nl":"Pagina vernieuwen","no":"Last inn siden på nytt","pl":"Odśwież stronę","ro":"Reîncarcă pagina","ru":"Перезагрузить страницу","sv":"Ladda om sidan","ua":"Перезавантажити сторінку","va":"Recarregar pàgina"},"confirmar_otro":{"es":"Confirmar otro invitado","en":"Confirm another guest","pt":"Confirmar outro convidado","it":"Conferma un altro ospite","de":"Weiteren Gast bestätigen","ar":"تأكيد ضيف آخر","al":"Konfirmoni një të ftuar tjetër","bs":"Potvrdite drugog gosta","bg":"Потвърдете друг гост","ca":"Confirmar un altre convidat","dk":"Bekræft en anden gæst","eu":"Beste gonbidatu bat baieztatu","fr":"Confirmer un autre invité","fi":"Vahvista toinen vieras","gl":"Confirmar outro convidado","el":"Επιβεβαίωση άλλου καλεσμένου","nl":"Bevestig een andere gast","no":"Bekreft en annen gjest","pl":"Potwierdź kolejnego gościa","ro":"Confirmă alt invitat","ru":"Подтвердить другого гостя","sv":"Bekräfta en annan gäst","ua":"Підтвердити іншого гостя","va":"Confirmar un altre convidat"},"pregunta_ceremonia":{"es":"¿Asistes a la Ceremonia?","en":"Will you attend the Ceremony?","pt":"Você irá à cerimônia?","it":"Parteciperai alla Cerimonia?","de":"Nimmst du an der Zeremonie teil?","ar":"هل ستحضر الحفل؟","al":"A do të merrni pjesë në Ceremoni?","bs":"Hoćete li prisustvovati Ceremoniji?","bg":"Ще присъствате ли на Церемонията?","ca":"Assistiràs a la Cerimònia?","dk":"Deltager du i Ceremonien?","eu":"Zeremoniara joango zara?","fr":"Assisterez-vous à la Cérémonie ?","fi":"Osallistutko Seremoniaan?","gl":"Asistirás á Cerimonia?","el":"Θα παρευρεθείτε στην Τελετή;","nl":"Woon je de Ceremonie bij?","no":"Deltar du i Seremonien?","pl":"Czy weźmiesz udział w Ceremonii?","ro":"Vei participa la Ceremonie?","ru":"Вы придёте на Церемонию?","sv":"Kommer du till Ceremonin?","ua":"Ви прийдете на Церемонію?","va":"Assistiràs a la Cerimònia?"},"pregunta_celebracion":{"es":"¿Asistes a la Celebración?","en":"Will you attend the Celebration?","pt":"Você irá à festa?","it":"Parteciperai alla Festa?","de":"Nimmst du an der Feier teil?","ar":"هل ستحضر الاحتفال؟","al":"A do të merrni pjesë në Festë?","bs":"Hoćete li prisustvovati Proslavi?","bg":"Ще присъствате ли на Празненството?","ca":"Assistiràs a la Celebració?","dk":"Deltager du i Festen?","eu":"Ospakizunera joango zara?","fr":"Assisterez-vous à la Fête ?","fi":"Osallistutko Juhlaan?","gl":"Asistirás á Celebración?","el":"Θα παρευρεθείτε στη Γιορτή;","nl":"Woon je het Feest bij?","no":"Deltar du i Feiringen?","pl":"Czy weźmiesz udział w Przyjęciu?","ro":"Vei participa la Petrecere?","ru":"Вы придёте на Праздник?","sv":"Kommer du till Festen?","ua":"Ви прийдете на Свято?","va":"Assistiràs a la Celebració?"},"titulo":{"es":"Confirmar Asistencia","en":"Confirm Attendance","pt":"Confirmar Presença","it":"Conferma Presenza","de":"Anwesenheit bestätigen","ar":"تأكيد الحضور","al":"Konfirmo Pjesëmarrjen","bs":"Potvrdite Prisustvo","bg":"Потвърдете Присъствие","ca":"Confirmar Assistència","dk":"Bekræft Deltagelse","eu":"Baieztatu Bertaratzea","fr":"Confirmer la Présence","fi":"Vahvista Läsnäolo","gl":"Confirmar Asistencia","el":"Επιβεβαίωση Παρουσίας","nl":"Bevestig Aanwezigheid","no":"Bekreft Oppmøte","pl":"Potwierdź Obecność","ro":"Confirmați Prezența","ru":"Подтвердить Присутствие","sv":"Bekräfta Närvaro","ua":"Підтвердити Присутність","va":"Confirmar Assistència"},"validacion_regex":{"es":"El formato ingresado no es válido","en":"The format entered is not valid","pt":"O formato inserido não é válido","it":"Il formato inserito non è valido","de":"Das eingegebene Format ist ungültig","ar":"التنسيق المدخل غير صالح","al":"Formati i futur nuk është i vlefshëm","bs":"Uneseni format nije valjan","bg":"Въведеният формат е невалиден","ca":"El format introduït no és vàlid","dk":"Det indtastede format er ugyldigt","eu":"Sartutako formatua ez da baliozkoa","fr":"Le format saisi n'est pas valide","fi":"Syötetty muoto ei ole kelvollinen","gl":"O formato introducido non é válido","el":"Η μορφή που εισαγάγατε δεν είναι έγκυρη","nl":"Het ingevoerde formaat is ongeldig","no":"Formatet som ble angitt er ugyldig","pl":"Wprowadzony format jest nieprawidłowy","ro":"Formatul introdus nu este valid","ru":"Введённый формат недействителен","sv":"Det angivna formatet är ogiltigt","ua":"Введений формат недійсний","va":"El format introduït no és vàlid"},"validacion_minLength":{"es":"El texto es muy corto","en":"Text is too short","pt":"O texto é muito curto","it":"Il testo è troppo corto","de":"Der Text ist zu kurz","ar":"النص قصير جداً","al":"Teksti është shumë i shkurtër","bs":"Tekst je prekratak","bg":"Текстът е твърде кратък","ca":"El text és massa curt","dk":"Teksten er for kort","eu":"Testua laburregia da","fr":"Le texte est trop court","fi":"Teksti on liian lyhyt","gl":"O texto é moi curto","el":"Το κείμενο είναι πολύ σύντομο","nl":"De tekst is te kort","no":"Teksten er for kort","pl":"Tekst jest za krótki","ro":"Textul este prea scurt","ru":"Текст слишком короткий","sv":"Texten är för kort","ua":"Текст занадто короткий","va":"El text és massa curt"},"validacion_maxLength":{"es":"El texto es muy largo","en":"Text is too long","pt":"O texto é muito longo","it":"Il testo è troppo lungo","de":"Der Text ist zu lang","ar":"النص طويل جداً","al":"Teksti është shumë i gjatë","bs":"Tekst je predugačak","bg":"Текстът е твърде дълъг","ca":"El text és massa llarg","dk":"Teksten er for lang","eu":"Testua luzeegia da","fr":"Le texte est trop long","fi":"Teksti on liian pitkä","gl":"O texto é moi longo","el":"Το κείμενο είναι πολύ μεγάλο","nl":"De tekst is te lang","no":"Teksten er for lang","pl":"Tekst jest za długi","ro":"Textul este prea lung","ru":"Текст слишком длинный","sv":"Texten är för lång","ua":"Текст занадто довгий","va":"El text és massa llarg"},"validacion_min":{"es":"El valor es muy bajo","en":"Value is too low","pt":"O valor é muito baixo","it":"Il valore è troppo basso","de":"Der Wert ist zu niedrig","ar":"القيمة منخفضة جداً","al":"Vlera është shumë e ulët","bs":"Vrijednost je preniska","bg":"Стойността е твърде ниска","ca":"El valor és massa baix","dk":"Værdien er for lav","eu":"Balioa baxuegia da","fr":"La valeur est trop basse","fi":"Arvo on liian matala","gl":"O valor é moi baixo","el":"Η τιμή είναι πολύ χαμηλή","nl":"De waarde is te laag","no":"Verdien er for lav","pl":"Wartość jest za niska","ro":"Valoarea este prea mică","ru":"Значение слишком низкое","sv":"Värdet är för lågt","ua":"Значення занадто низьке","va":"El valor és massa baix"},"validacion_max":{"es":"El valor es muy alto","en":"Value is too high","pt":"O valor é muito alto","it":"Il valore è troppo alto","de":"Der Wert ist zu hoch","ar":"القيمة مرتفعة جداً","al":"Vlera është shumë e lartë","bs":"Vrijednost je previsoka","bg":"Стойността е твърде висока","ca":"El valor és massa alt","dk":"Værdien er for høj","eu":"Balioa altuegia da","fr":"La valeur est trop élevée","fi":"Arvo on liian korkea","gl":"O valor é moi alto","el":"Η τιμή είναι πολύ υψηλή","nl":"De waarde is te hoog","no":"Verdien er for høy","pl":"Wartość jest za wysoka","ro":"Valoarea este prea mare","ru":"Значение слишком высокое","sv":"Värdet är för högt","ua":"Значення занадто високе","va":"El valor és massa alt"},"soy_acompanante":{"es":"Soy acompañante","en":"I'm a plus one","pt":"Sou acompanhante","it":"Sono un accompagnatore","de":"Ich bin eine Begleitung","ar":"أنا مرافق","al":"Jam shoqërues","bs":"Ja sam pratnja","bg":"Аз съм придружител","ca":"Sóc acompanyant","dk":"Jeg er ledsager","eu":"Laguntzailea naiz","fr":"Je suis accompagnant","fi":"Olen seuralainen","gl":"Son acompañante","el":"Είμαι συνοδός","nl":"Ik ben een begeleider","no":"Jeg er ledsager","pl":"Jestem osobą towarzyszącą","ro":"Sunt însoțitor","ru":"Я сопровождающий","sv":"Jag är en följeslagare","ua":"Я супроводжуючий","va":"Sóc acompanyant"},"cupo_acompanantes_lleno":{"es":"Ya no hay cupo disponible para acompañantes","en":"No more spots available for plus ones","pt":"Não há mais vagas disponíveis para acompanhantes","it":"Non ci sono più posti disponibili per accompagnatori","de":"Keine Plätze mehr für Begleitungen verfügbar","ar":"لم يعد هناك مكان متاح للمرافقين","al":"Nuk ka më vende të disponueshme për shoqërues","bs":"Nema više mjesta za pratnju","bg":"Няма повече места за придружители","ca":"Ja no hi ha places disponibles per a acompanyants","dk":"Ingen flere pladser til ledsagere","eu":"Ez dago leku gehiago laguntzaileentzat","fr":"Plus de places disponibles pour les accompagnants","fi":"Ei enää paikkoja seuralaisille","gl":"Xa non hai prazas dispoñibles para acompañantes","el":"Δεν υπάρχουν άλλες θέσεις για συνοδούς","nl":"Geen plaatsen meer beschikbaar voor begeleiders","no":"Ingen flere plasser tilgjengelig for ledsagere","pl":"Brak wolnych miejsc dla osób towarzyszących","ro":"Nu mai sunt locuri disponibile pentru însoțitori","ru":"Нет свободных мест для сопровождающих","sv":"Inga fler platser för följeslagare","ua":"Немає більше місць для супроводжуючих","va":"Ja no hi ha places disponibles per a acompanyants"}},
+            eventosInvitacion: {"celebracion":"Fiesta"},
+            submitUrl: 'services/form-asistencia/fetchs/submit-response.php',
+            token: '',
+            invitacionEnc: '',
+            configVersion: 0,
+            demoMode: true,
+            onSuccess: function(result) {
+                console.log('Confirmación enviada:', result);
+            },
+            onError: function(error) {
+                console.error('Error en confirmación:', error);
+            },
+            // Opcional: en el script del modelo definir window.formFlexOnRender = function(renderer) { ... }
+            onRender: function(renderer) {
+                if (typeof window.formFlexOnRender === 'function') {
+                    try {
+                        window.formFlexOnRender(renderer);
+                    } catch (e) {
+                        console.error('FormAsistenciaFlex: formFlexOnRender error', e);
+                    }
+                }
+            }
+        });
+    }
+});
+</script>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal sugerir cancion-->
+      <div id="modalSugerirCancion" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-md modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-content-2 box-col">
+
+
+        <!-- Imagen top modal -->
+        <div class="img-top-modal">
+
+          <!-- Botón cerrar modal -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+          <!-- Icono modal -->
+          <img class="injectable modal-icon" src="modelo-invitacion/138/img/img_circuloCanciones.svg" alt="">
+
+        <img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="adorno-modal adorno-modal-top"></div>
+
+        <!-- Header modal -->
+        <div class="modal-header">
+
+          <!-- Titulo -->
+          <h5 class="modal-title">
+            Sugerir Canción          </h5>
+
+        </div>
+
+        <!-- Body modal -->
+        <div class="modal-body">
+
+          <!-- Formulario -->
+          <div class="formulario-content">
+
+            <form id="formSugerirCancion" action="">
+
+              <div class="form-group">
+                <input type="text" class="form-control" id="nombreSugerencia" name='nombre' placeholder="Tu nombre">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" id="descripcionSugerencia" name='descripcion' placeholder="Nombre de canción y autor">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" id="linkSugerencia" name='link' placeholder="Si lo desea ingrese el link de YouTube, Spotify, etc.">
+              </div>
+
+
+              <input type="hidden" name="invitacion" value="">
+              <input type="hidden" name="token" value="">
+              <input type="hidden" name="lang" value="es">
+              <input type="hidden" name="country" value="uy">
+
+            </form>
+
+          </div>
+
+          <!-- Mensaje  -->
+          <div class="msj-content"></div>
+
+        </div>
+
+
+        <!-- Footer modal -->
+        <div class="modal-footer">
+          <button type="button" id="sendSugerenciaCancion" class="boton">Sugerir canción</button>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- Modal vestuario-->
+      <div id="modalVestuario" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-md modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-content-2 box-col">
+
+        <!-- Imagen top modal -->
+        <div class="img-top-modal">
+
+          <!-- Botón cerrar modal -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+          <!-- Icono modal -->
+          <img class="injectable modal-icon" src="modelo-invitacion/138/img/vestuario.svg" alt="">
+
+        <img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="adorno-modal adorno-modal-top"></div>
+
+        <!-- Header modal -->
+        <div class="modal-header">
+          <!-- Titulo -->
+          <h5 class="modal-title">Dress Code</h5>
+        </div>
+
+        <!-- Body modal -->
+        <div class="modal-body">
+          <p>Semi formal</p>
+        </div>
+
+        <!-- Footer modal -->
+        <div class="modal-footer"></div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- Modal tips-->
+      <div id="modalTips" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-md modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-content-2 box-col">
+
+        <!-- Imagen top modal -->
+        <div class="img-top-modal">
+
+          <!-- Botón cerrar modal -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+          <!-- Icono modal -->
+          <img class="injectable modal-icon" src="modelo-invitacion/138/img/tips.svg" alt="">
+          
+        <img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="adorno-modal adorno-modal-top"></div>
+
+        <!-- Header modal -->
+        <div class="modal-header">
+          
+        <!-- Titulo -->
+          <h5 class="modal-title">
+            Tips y Notas          </h5>
+        </div>
+
+        <!-- Body modal -->
+        <div class="modal-body">
+          <p>Contenido Tips y Notas</p>
+        </div>
+
+        <!-- Footer modal -->
+        <div class="modal-footer"></div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- Modal traslados-->
+      <div id="modalTraslados" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-md modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-content-2 box-col">
+
+        <!-- Imagen top modal -->
+        <div class="img-top-modal">
+
+          <!-- Botón cerrar modal -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+          <!-- Icono modal -->
+          <img class="injectable modal-icon" src="modelo-invitacion/138/img/traslados.svg" alt="">
+          
+        <img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="adorno-modal adorno-modal-top"></div>
+
+        <!-- Header modal -->
+        <div class="modal-header">
+          
+        <!-- Titulo -->
+          <h5 class="modal-title">
+            Traslados          </h5>
+        </div>
+
+        <!-- Body modal -->
+        <div class="modal-body">
+          <p>Contenido Traslados</p>
+        </div>
+
+        <!-- Footer modal -->
+        <div class="modal-footer"></div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal alojamientos-->
+      <div id="modalAlojamientos" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-md modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-content-2 box-col">
+
+        <!-- Imagen top modal -->
+        <div class="img-top-modal">
+
+          <!-- Botón cerrar modal -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+          <!-- Icono modal -->
+          <img class="injectable modal-icon" src="modelo-invitacion/138/img/alojamientos.svg" alt="">
+          
+        <img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="adorno-modal adorno-modal-top"></div>
+
+        <!-- Header modal -->
+        <div class="modal-header">
+          
+        <!-- Titulo -->
+          <h5 class="modal-title">
+            Alojamientos          </h5>
+        </div>
+
+        <!-- Body modal -->
+        <div class="modal-body">
+          <p>Contenido Alojamientos</p>
+        </div>
+
+        <!-- Footer modal -->
+        <div class="modal-footer"></div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal regalos-->
+      <div id="modalRegalos" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-md modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-content-2 box-col">
+
+
+        <!-- Imagen top modal -->           
+        <div class="img-top-modal">
+          
+          <!-- Botón cerrar modal -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+          <!-- Icono modal -->
+          <img class="injectable modal-icon" src="modelo-invitacion/138/img/img_circuloRegalo.svg" alt="">
+        <img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="adorno-modal adorno-modal-top"></div>
+
+
+        <!-- Header modal -->
+        <div class="modal-header">
+          
+          <!-- Titulo -->
+          <h5 class="modal-title">
+            Regalos          </h5>
+        </div>
+
+        <!-- Body modal -->
+        <div class="modal-body">
+          <p>Contenido modal regalos</p>
+        </div>
+
+        <!-- Footer modal -->
+        <div class="modal-footer"></div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- Modal mapa-->
+      <div id="modalMapa" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-content-2 box-col">
+
+
+        <!-- Imagen top modal -->
+        <div class="img-top-modal">
+
+          <!-- Botón cerrar modal -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+          <!-- Icono modal -->
+          <img class="injectable modal-icon" src="modelo-invitacion/138/img/ubicacion.svg" alt="">
+
+        <img src="recursos-variantes-modelos/138/snow/recursos/img/divisor.png" class="adorno-modal adorno-modal-top"></div>
+
+
+        <!-- Header modal --> 
+        <div class="modal-header">
+          <!-- Titulo dinamico segun evento -->
+          <h5 class="modal-title"></h5>
+        </div>
+
+
+        <!-- Body modal -->
+        <div class="modal-body">
+
+          <!-- Loader mientras carga el mapa -->
+          <div id="mapLoader" class="map-loader">
+            <div class="map-spinner"></div>
+          </div>
+
+          <!-- Iframe Mapa -->
+          <iframe id="googleMapIframe" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+
+        <!-- Footer modal -->
+        <div class="modal-footer">
+          <a class="boton ampliar-mapa" target="_blank" href="#">Ampliar mapa</a>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Muestro el banner si tiene parametro "banner" y si el modelo es visible en la web (para que tenga donde dirigir) -->
+
+      
+
+    
+    <!-- Banner demo caducidad (solo para invitaciones demo) -->
+    
+    <!-- Scripts -->
+    <!-- Varaibles para JS desde config -->
+<script>
+  var _pathApp = "https://www.fixdate.io/";
+
+  var _pathProducto = "modelo-invitacion/138/";
+
+  var tokenProducto = "";
+
+  // Idioma
+  var langJs = "es"
+
+  // Idioma js en MODELO e INVITACION
+      var langJsVariante = "es-UY";
+  
+  
+  
+    // Cuenta regresiva
+    var fechaCuentaRegresiva = "07/11/2026 21:00:00";
+
+    // Mapas
+    var latitudFiesta = -34.749576;
+    var longitudFiesta = -56.2154759;
+    // var latitudCeremonia = ;
+    // var longitudCeremonia = ;
+
+    // Links Mapas
+    var linkMapsFiesta = "";
+    // var linkMapsCeremonia = "";
+
+    
+</script>
+
+<!-- Idioma por defecto js -->
+<script>
+  var langDefault = 'es-UY';
+</script>
+
+<!-- // Consulto tipo de dispositivo -->
+<script>
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+
+    var device = 'mobile';
+
+  } else {
+
+    var device = 'desktop';
+  }
+</script>
+
+<!-- Funciones y varialbes globales -->
+<script>
+  // Funcion para validar formato url
+  function is_url(str) {
+    regexp = /^(?:(?:https?|ftp):\/\/)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})))(?::\d{2,5})?(?:\/\S*)?$/;
+    if (regexp.test(str)) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+</script>
+
+<!-- Lottie -->
+<script src="modelo-invitacion/138/js/lottie_svg.min.js"></script>
+<!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
+<!-- <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script> -->
+
+<!-- Animacion loader -->
+<script>
+  let svgContainerLoader = document.querySelector('.loader');
+
+  let animLoader = bodymovin.loadAnimation({
+    wrapper: svgContainerLoader,
+    animType: 'svg',
+    loop: true,
+    path: _pathProducto + "img/corazon.json"
+  });
+</script>
+
+<!-- Soporte WEBP -->
+<script>
+  function support_format_webp() {
+    var elem = document.createElement('canvas');
+
+    if (!!(elem.getContext && elem.getContext('2d'))) {
+      // was able or not to get WebP representation
+      return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+    } else {
+      // very old browser like IE 8, canvas not supported
+      return false;
+    }
+  }
+</script>
+
+<!-- Listado de js con version dinamica segun modificacion de archivo -->
+<script type='text/javascript' src='modelo-invitacion/138/langs/js/es-UY.js?v=1776548120'></script><script type='text/javascript' src='modelo-invitacion/138/js/jquery-3.5.1.min.js?v=1776544339'></script><script type='text/javascript' src='public/js/jquery.cookie.js?v=1779904416'></script><script type='text/javascript' src='public/js/change-lang.js?v=1779904416'></script><script type='text/javascript' src='modelo-invitacion/138/js/waypoint/noframework.waypoints.min.js?v=1776548110'></script><script type='text/javascript' src='modelo-invitacion/138/js/parallax.min.js?v=1776544340'></script><script type='text/javascript' src='modelo-invitacion/138/js/popper.min.js?v=1776544341'></script><script type='text/javascript' src='modelo-invitacion/138/js/bootstrap.min.js?v=1776544338'></script><script type='text/javascript' src='modelo-invitacion/138/js/slick.min.js?v=1776544341'></script><script type='text/javascript' src='modelo-invitacion/138/js/jquery.fancybox.min.js?v=1776544339'></script><script type='text/javascript' src='modelo-invitacion/138/js/aos.js?v=1776544338'></script><script type='text/javascript' src='modelo-invitacion/138/js/svg-inject.min.js?v=1776544342'></script><script type='text/javascript' src='modelo-invitacion/138/js/scripts.js?v=1776544341'></script>
+<!-- Loader -->
+<script>
+  var prealoaderOption = $(window);
+
+  prealoaderOption.on("load", function() {
+
+    var preloader = $('.loader');
+    var preloaderArea = $('.preloader-area');
+
+    preloader.fadeOut(500);
+    preloaderArea.delay(100).fadeOut(500);
+
+    // Detengo animacion loader
+    animLoader.destroy();
+
+    // Cargo animacion AOS
+    setTimeout(function() {
+      AOS.init();
+    }, 100);
+
+  });
+</script>
+
+
+  
+    <!-- Modal musica inicio -->
+    
+      <script>
+        // Al cargar abro modal
+        prealoaderOption.on("load", function() {
+          $('#modalMusica').modal({
+            backdrop: 'static'
+          });
+        });
+
+        // Modifico el color del backdrop para este modal
+        $('#modalMusica').on('show.bs.modal', function(e) {
+          $('body').addClass("backdrop-modal-musica");
+        }).on('hidden.bs.modal', function(e) {
+          $('body').removeClass("backdrop-modal-musica");
+        })
+
+        // Btn play music modal
+        $('body').on('click touchstart', '#play-music-modal', function(e) {
+
+          e.preventDefault();
+
+          $('#play-pause-music').attr('data-estado-music', 'play');
+          animMusicAnimIcon.play();
+          player.playVideo();
+
+          $('#modalMusica').modal('hide');
+
+        });
+      </script>
+
+    
+    <!-- Musica de fondo -->
+    <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player-musica-fondo', {
+          height: '10',
+          width: '10',
+          playerVars: {
+            playlist: 'KaM1bCuG4xo',
+            loop: 1,
+            start: 0          },
+          events: {
+            'onReady': onPlayerReady
+          }
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.setVolume(80);
+        // event.target.playVideo();
+      }
+
+      // Pausar video
+      function pauseVideo() {
+        player.pauseVideo();
+      }
+
+      // Click en controlador musica
+      $('body').on('click', '#play-pause-music', function(e) {
+
+        e.preventDefault();
+
+        // Estado actual
+        var estadoMusic = $(this).attr('data-estado-music');
+
+        // Pause music
+        if (estadoMusic == 'pause') {
+          $(this).attr('data-estado-music', 'play');
+          animMusicAnimIcon.play();
+          player.playVideo();
+
+        }
+
+        // Play music
+        if (estadoMusic == 'play') {
+          $(this).attr('data-estado-music', 'pause');
+          player.pauseVideo();
+          animMusicAnimIcon.stop();
+        }
+
+      });
+    </script>
+
+    <!-- Calcular posicion de reproductor en relacion a container centrado -->
+    <script>
+      function calcularPosicionReproductor() {
+        let containerInv = $('.inv-container')
+        let anchoContainerInv = parseInt(containerInv.css('width'));
+        let anchoVentana = parseInt($(document).width());
+        let sobranteLado = parseInt(anchoVentana - anchoContainerInv) / 2;
+        let newRightPlayer = sobranteLado + 1;
+        $('#controlador-musica').css('right', newRightPlayer)
+      }
+
+      $(window).resize(function() {
+        calcularPosicionReproductor()
+      });
+
+      $(document).ready(function() {
+        calcularPosicionReproductor()
+      });
+    </script>
+
+  
+  <!-- Animaciones de diseño -->
+  <script>
+    let svgContainerMusicAnimIcon = document.querySelector('.music-anim-icon');
+
+    let animMusicAnimIcon = bodymovin.loadAnimation({
+      wrapper: svgContainerMusicAnimIcon,
+      animType: 'svg',
+      autoplay: false,
+      loop: true,
+      path: _pathProducto + "img/music-player-icon.json"
+    });
+  </script>
+
+  
+
+  <!-- Animacion anillos -->
+  <script>
+    let svgContainerAnillos = document.querySelector('.anim-col-ceremonia');
+
+    let animAnillos = bodymovin.loadAnimation({
+      wrapper: svgContainerAnillos,
+      animType: 'svg',
+      loop: true,
+      path: _pathProducto + "img/img_ceremonia.json"
+    });
+
+    animAnillos.play();
+  </script>
+
+  <!-- Animacion galeria -->
+  <script>
+    let svgContainerGaleria = document.querySelector('.anim-galeria');
+
+    let animGaleria = bodymovin.loadAnimation({
+      wrapper: svgContainerGaleria,
+      animType: 'svg',
+      loop: true,
+      path: _pathProducto + "img/json_camara.json"
+    });
+
+    animGaleria.play();
+  </script>
+
+  <!-- Animacion Musica -->
+  <script>
+    let svgContainerMusica = document.querySelector('.anim-musica');
+
+    let animMusica = bodymovin.loadAnimation({
+      wrapper: svgContainerMusica,
+      animType: 'svg',
+      loop: true,
+      path: _pathProducto + "img/img_musica.json"
+    });
+
+    animMusica.play();
+  </script>
+
+  <!-- Animacion Vestuario -->
+  <script>
+    let svgContainerVestuario = document.querySelector('.anim-vestuario');
+
+    let animVestuario = bodymovin.loadAnimation({
+      wrapper: svgContainerVestuario,
+      animType: 'svg',
+      loop: true,
+      path: _pathProducto + "img/vestuario.json"
+    });
+
+    animVestuario.play();
+  </script>
+
+  <!-- Animacion Tips -->
+  <script>
+    let svgContainerTips = document.querySelector('.anim-tips');
+
+    let animTips = bodymovin.loadAnimation({
+      wrapper: svgContainerTips,
+      animType: 'svg',
+      loop: true,
+      path: _pathProducto + "img/tips.json"
+    });
+
+    animTips.play();
+  </script>
+
+
+  <!-- Animacion Traslados -->
+  <!-- <script>
+    let svgContainerTraslados = document.querySelector('.anim-traslados');
+
+    let animTraslados = bodymovin.loadAnimation({
+      wrapper: svgContainerTraslados,
+      animType: 'svg',
+      loop: true,
+      path: _pathProducto + "img/traslados.json"
+    });
+
+    animTraslados.play();
+  </script> -->
+
+
+  <!-- Animacion Alojamientos -->
+  <!-- <script>
+    let svgContainerAlojamientos = document.querySelector('.anim-alojamientos');
+
+    let animAlojamientos = bodymovin.loadAnimation({
+      wrapper: svgContainerAlojamientos,
+      animType: 'svg',
+      loop: true,
+      path: _pathProducto + "img/alojamientos.json"
+    });
+
+    animAlojamientos.play();
+  </script> -->
+
+  
+  <!-- Animacion canciones -->
+  <script>
+    let svgContainerFiesta = document.querySelector('.anim-col-fiesta');
+
+    let animFiesta = bodymovin.loadAnimation({
+      wrapper: svgContainerFiesta,
+      animType: 'svg',
+      loop: true,
+      path: _pathProducto + "img/img_fiesta.json"
+    });
+
+    animFiesta.play();
+  </script>
+
+  <!-- Animacion regalos -->
+  <script>
+    let svgContainerRegalos = document.querySelector('.anim-regalos');
+
+    let animRegalos = bodymovin.loadAnimation({
+      wrapper: svgContainerRegalos,
+      animType: 'svg',
+      loop: true,
+      path: _pathProducto + "img/img_regalo.json"
+    });
+
+    animRegalos.play();
+  </script>
+
+  <!-- Animacion instagram -->
+  <script>
+    let svgContainerInstagram = document.querySelector('.anim-instagram');
+
+    let animInstagram = bodymovin.loadAnimation({
+      wrapper: svgContainerInstagram,
+      animType: 'svg',
+      loop: true,
+      path: _pathProducto + "img/img_instagram.json"
+    });
+
+    animInstagram.play();
+  </script>
+
+  <!-- Opciones carrusel galeria -->
+  <script>
+    $('.carrusel').slick({
+      lazyLoad: 'ondemand',
+      autoplay: true,
+      autoplaySpeed: 2000,
+      centerMode: true,
+      dots: true,
+      centerPadding: '20px',
+      slidesToShow: 3,
+      prevArrow: false,
+      nextArrow: false,
+      responsive: [{
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+  </script>
+
+  <!-- Modal Confirmar asistencia -->
+  <script>
+    // Abrir modal
+    $('body').on('click', 'a.confirmar-asistencia', function(e) {
+
+      e.preventDefault();
+
+      var evento = $(this).attr('data-evento');
+
+      // [FLEX] Formulario Flex: abrir modal sin configurar ícono/título
+      if (evento == 'Todos') {
+        $('#modalAsistencia').modal({
+          backdrop: 'static'
+        });
+        return;
+      }
+
+      // Remuevo mensajes de error anteriores
+      $("#error-form").remove();
+
+      $('#eventoAsistencia').val(evento);
+
+      if (evento == 'Fiesta') {
+        var titleModalAsistencia = lang_titleModalAsistenciaFiesta;
+        $('.icon-ceremonia').hide();
+        $('.icon-fiesta').show();
+      }
+
+      if (evento == 'Ceremonia') {
+        var titleModalAsistencia = lang_titleModalAsistenciaCeremonia;
+        $('.icon-ceremonia').show();
+        $('.icon-fiesta').hide();
+      }
+
+      $('#modalAsistencia .modal-title').text(titleModalAsistencia);
+
+      $('#modalAsistencia').modal({
+        backdrop: 'static'
+      })
+
+    });
+
+    // Validacion de form.
+    function isOkAsistencia() {
+
+      // Remuevo mensajes de error anteriores
+      $("#error-form").remove();
+
+      // Variables necesarias para la validacion
+      var flag = true;
+      var err = '';
+
+      // Variables del form para validar.
+      var asistenteName = $.trim($("#nombreAsistente").val());
+      var asistenteComentarios = $.trim($("#comentariosAsistente").val());
+
+      // Nombre
+      if (asistenteName == '') {
+        flag = false;
+        err = lang_nombreRequerido;
+      } else {
+        if (asistenteName.length > 100) {
+          flag = false;
+          err = lang_caracteresNombreAsistencia;
+        }
+      }
+
+      // Comentarios
+      if (asistenteComentarios != '') {
+        if (asistenteComentarios.length > 100) {
+          flag = false;
+          err = lang_caracteresComentariosAsistencia;
+        }
+      }
+
+      // Si hay error
+      if (flag === false) {
+
+        // Imprimo el error
+        $('#formAsistencia').after('<span id="error-form">' + err + '</span>');
+
+      }
+
+      // Retorno el estado de la validacion
+      return flag;
+
+    }
+
+    // Enviar asistencia
+    $('body').on('click', '#sendAsistencia', function(e) {
+
+      e.preventDefault();
+
+      if (isOkAsistencia()) //Form bien validado
+      {
+
+        // Load and disabled buttom.
+        $("#sendAsistencia").text(lang_informandoAsistencia + "...");
+        $("#sendAsistencia").prop("disabled", true);
+
+        // Obtengo el Form.
+        var formulario = $("#formAsistencia")[0];
+
+        // Obtengo los datos del formulario
+        var datos = new FormData(formulario);
+
+        // Visualizar como viajan los datos
+        // for (var pair of datos.entries()) {
+        //   console.log(pair[0] + ", " + pair[1]);
+        // }
+
+        // Envio con fetch los datos mediante POST
+        fetch(_pathApp + "producto/fetchs/confirmar-asistencia.php", {
+            method: "POST",
+            body: datos
+          })
+          // Promesas fetch
+          .then(res => res.json())
+          .then(data => {
+
+            // Si recibo error 
+            if (data.error === true) {
+
+              $("#sendAsistencia").text(lang_confirmarAsistencia);
+              $("#sendAsistencia").prop("disabled", false);
+
+              // Imprimo el error
+              $('#formAsistencia').after('<span id="error-form">' + data.desc + '</span>');
+            }
+
+            // Si no hay error 
+            if (data.error === false) {
+
+              $("#sendAsistencia").text(lang_confirmarAsistencia);
+              $("#sendAsistencia").prop("disabled", false);
+
+              // Oculto elementos del form y reseteo
+              $('#formAsistencia')[0].reset();
+              $('#modalAsistencia .formulario-content, #modalAsistencia .modal-footer, #modalAsistencia h5').hide();
+
+              // Acomodo el css para centrar mensaje
+              $('#modalAsistencia .modal-body').addClass('fix-height');
+
+              // Muestro mensaje de exito
+              $('#modalAsistencia .msj-content').html(
+                "<h5>" + lang_asistenciaMsjExito_1 + "</h5><p>" + lang_asistenciaMsjExito_2 + "</p>"
+              ).show();
+
+              // Cierro modal y vuelvo a activar form
+              setTimeout(function() {
+
+                $('#modalAsistencia').modal('hide');
+                $('#modalAsistencia .formulario-content, #modalAsistencia .modal-footer, #modalAsistencia h5').show();
+                $('#modalAsistencia .msj-content').html('').hide();
+                $('#modalAsistencia .modal-body').removeClass('fix-height');
+
+              }, 4000);
+
+            }
+
+          });
+      }
+
+    });
+  </script>
+
+  <!-- Cuenta regresiva -->
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date(fechaCuentaRegresiva).getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Display the result in the element with id="demo"
+      // document.getElementById("reloj").innerHTML = days + " días " + hours + "hs " +
+      //   minutes + "m " + seconds + "s ";
+
+      $("#dias .number").text(days);
+      $("#horas .number").text(hours);
+      $("#minutos .number").text(minutes);
+      $("#segundos .number").text(seconds);
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("reloj").innerHTML = '<p class="fin-cuenta">' +
+          lang_textoFinalCuentaRegresiva + '</p>';
+        $('.falta').text('');
+      }
+    }, 1000);
+  </script>
+
+  <!-- Modal sugerir cancion -->
+  <script>
+    // Abrir modal
+    $('body').on('click', 'a.sugerir-cancion', function(e) {
+
+      e.preventDefault();
+
+      // Remuevo mensajes de error anteriores
+      $("#error-form").remove();
+
+      $('#modalSugerirCancion').modal({
+        backdrop: 'static'
+      })
+
+    });
+
+    // Validacion de form.
+    function isOkSugerirCancion() {
+
+      // Remuevo mensajes de error anteriores
+      $("#error-form").remove();
+
+      // Variables necesarias para la validacion
+      var flag = true;
+      var err = '';
+
+      // Variables del form para validar.
+      var sugerenciaName = $.trim($("#nombreSugerencia").val());
+      var sugerenciaDescription = $.trim($("#descripcionSugerencia").val());
+      var sugerenciaLink = $.trim($("#linkSugerencia").val());
+
+      // Descripcion
+      if (sugerenciaDescription == '') {
+        flag = false;
+        err = lang_cancionRequerida;
+      } else {
+        if (sugerenciaDescription.length > 50) {
+          flag = false;
+          err = lang_caracteresCancionSugerencia;
+        }
+      }
+
+      // Link
+      if (sugerenciaLink != '') {
+
+        if (!is_url(sugerenciaLink)) {
+          flag = false;
+          err = lang_linkIncorrecto;
+        }
+        if (sugerenciaLink.length > 250) {
+          flag = false;
+          err = lang_caracteresLinkSugerencia;
+        }
+
+      }
+
+      // Nombre
+      if (sugerenciaName == '') {
+        flag = false;
+        err = lang_nombreRequerido;
+      } else {
+        if (sugerenciaName.length > 20) {
+          flag = false;
+          err = lang_caracteresNombreSugerencia;
+        }
+      }
+
+      // Si hay error
+      if (flag === false) {
+
+        // Imprimo el error
+        $('#formSugerirCancion').after('<span id="error-form">' + err + '</span>');
+
+      }
+
+      // Retorno el estado de la validacion
+      return flag;
+
+    }
+
+    // Enviar sugerencia
+    $('body').on('click', '#sendSugerenciaCancion', function(e) {
+
+      e.preventDefault();
+
+      if (isOkSugerirCancion()) //Form bien validado
+      {
+
+        // Load and disabled buttom.
+        $("#sendSugerenciaCancion").text(lang_enviandoSugerencia + "...");
+        $("#sendSugerenciaCancion").prop("disabled", true);
+
+        // Obtengo el Form.
+        var formulario = $("#formSugerirCancion")[0];
+
+        // Obtengo los datos del formulario
+        var datos = new FormData(formulario);
+
+        // Visualizar como viajan los datos
+        for (var pair of datos.entries()) {
+          console.log(pair[0] + ", " + pair[1]);
+        }
+
+        // Envio con fetch los datos mediante POST
+        fetch(_pathApp + "producto/fetchs/sugerir-cancion.php", {
+            method: "POST",
+            body: datos
+          })
+          // Promesas fetch
+          .then(res => res.json())
+          .then(data => {
+
+            // Si recibo error 
+            if (data.error === true) {
+
+              $("#sendSugerenciaCancion").text(lang_sugerirCancion);
+              $("#sendSugerenciaCancion").prop("disabled", false);
+
+              // Imprimo el error
+              $('#formSugerirCancion').after('<span id="error-form">' + data.desc + '</span>');
+            }
+
+            // Si no hay error 
+            if (data.error === false) {
+
+              $("#sendSugerenciaCancion").text(lang_sugerirCancion);
+              $("#sendSugerenciaCancion").prop("disabled", false);
+
+              // Oculto elementos del form y reseteo
+              $('#formSugerirCancion')[0].reset();
+              $('#modalSugerirCancion .formulario-content, #modalSugerirCancion .modal-footer, #modalSugerirCancion h5').hide();
+
+              // Acomodo el css para centrar mensaje
+              $('#modalSugerirCancion .modal-body').addClass('fix-height');
+
+              // Muestro mensaje de exito
+
+              $('#modalSugerirCancion .msj-content').html(
+                "<h5>" + lang_sugerirCancionMsjExito_1 + "</h5><p>" + lang_sugerirCancionMsjExito_2 + "</p>"
+              ).show();
+
+              // Cierro modal y vuelvo a activar form
+              setTimeout(function() {
+
+                $('#modalSugerirCancion').modal('hide');
+                $('#modalSugerirCancion .formulario-content, #modalSugerirCancion .modal-footer, #modalSugerirCancion h5').show();
+                $('#modalSugerirCancion .msj-content').html('').hide();
+                $('#modalSugerirCancion .modal-body').removeClass('fix-height');
+
+              }, 4000);
+
+            }
+
+          });
+      }
+
+    });
+  </script>
+
+  <!-- Modal Vestuario -->
+  <script>
+    // Abrir modal
+    $('body').on('click', 'a.modal-vestuario', function(e) {
+
+      e.preventDefault();
+
+      $('#modalVestuario').modal({
+        backdrop: 'static'
+      })
+
+    });
+  </script>
+
+  <!-- Modal Tips -->
+  <script>
+    // Abrir modal
+    $('body').on('click', 'a.modal-tips', function(e) {
+
+      e.preventDefault();
+
+      $('#modalTips').modal({
+        backdrop: 'static'
+      })
+
+    });
+  </script>
+
+  <!-- Modal Traslados -->
+  <script>
+    // Abrir modal
+    $('body').on('click', 'a.modal-traslados', function(e) {
+
+      e.preventDefault();
+
+      $('#modalTraslados').modal({
+        backdrop: 'static'
+      })
+
+    });
+  </script>
+
+  <!-- Modal Alojamientos -->
+  <script>
+    // Abrir modal
+    $('body').on('click', 'a.modal-alojamientos', function(e) {
+
+      e.preventDefault();
+
+      $('#modalAlojamientos').modal({
+        backdrop: 'static'
+      })
+
+    });
+  </script>
+
+  <!-- Modal regalos -->
+  <script>
+    // Abrir modal
+    $('body').on('click', 'a.modal-regalos', function(e) {
+
+      e.preventDefault();
+
+      $('#modalRegalos').modal({
+        backdrop: 'static'
+      })
+
+    });
+  </script>
+
+  <!-- Modal como llegar -->
+  <script>
+    // Abrir modal
+    $('body').on('click', 'a.modal-como-llegar', function(e) {
+
+      e.preventDefault();
+
+      var evento = $(this).attr('data-evento');
+      var iframeSrc = '';
+      var linkMaps = '';
+      var latitud = 0;
+      var longitud = 0;
+      var linkMapConfigured = '';
+
+      // Obtener datos según el evento
+      if (evento == 'Fiesta') {
+        var titleModalMapa = lang_titleModalMapaFiesta;
+        latitud = latitudFiesta;
+        longitud = longitudFiesta;
+        linkMapConfigured = linkMapsFiesta;
+      }
+
+      // if (evento == 'Ceremonia') {
+      //   var titleModalMapa = lang_titleModalMapaCeremonia;
+      //   latitud = latitudCeremonia;
+      //   longitud = longitudCeremonia;
+      //   linkMapConfigured = linkMapsCeremonia;
+      // }
+
+      // Validar si hay coordenadas válidas
+      var coordenadasValidas = (latitud !== 0 && longitud !== 0 && latitud !== null && longitud !== null);
+
+      // Generar URL del iframe siempre con coordenadas
+      if(coordenadasValidas) {
+        // IFRAME: Siempre usa coordenadas (es la única forma confiable)
+        iframeSrc = 'https://www.google.com/maps?q=' + latitud + ',' + longitud + '&output=embed';
+        
+        // AMPLIAR MAPA: Usa linkMaps si está configurado, sino usa coordenadas
+        if(linkMapConfigured != '' && linkMapConfigured != null) {
+          linkMaps = linkMapConfigured;
+        } else {
+          linkMaps = 'https://www.google.com/maps/search/?api=1&query=' + latitud + ',' + longitud;
+        }
+      } 
+      // No hay coordenadas válidas
+      else {
+        console.warn('No hay coordenadas configuradas para: ' + evento);
+        iframeSrc = 'https://www.google.com/maps?q=0,0&output=embed';
+        linkMaps = linkMapConfigured != '' ? linkMapConfigured : 'https://www.google.com/maps';
+      }
+
+      // Cambio titulo
+      $('#modalMapa .modal-title').text(titleModalMapa);
+
+      // Mostrar loader y ocultar iframe temporalmente
+      $('#mapLoader').removeClass('hidden');
+      $('#googleMapIframe').css('opacity', '0');
+
+      // Cargo el iframe con la URL generada
+      $('#googleMapIframe').attr('src', iframeSrc);
+
+      // Ocultar loader cuando el iframe termine de cargar
+      $('#googleMapIframe').off('load').on('load', function() {
+        $('#mapLoader').addClass('hidden');
+        $('#googleMapIframe').css('opacity', '1');
+      });
+
+      // Genero el link para ampliar mapa
+      $('.ampliar-mapa').attr('href', linkMaps);
+
+      // Abrir modal
+      $('#modalMapa').modal({
+        backdrop: 'static'
+      });
+
+    });
+
+    // Resetear loader cuando se cierra el modal
+    $('#modalMapa').on('hidden.bs.modal', function() {
+      $('#mapLoader').removeClass('hidden');
+      $('#googleMapIframe').css('opacity', '0');
+      $('#googleMapIframe').attr('src', '');
+    });
+  </script>
+
+
+  <!-- AddEvent script -->
+  <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+
+  <!-- AddEvent Settings -->
+  <script type="text/javascript">
+    window.addeventasync = function() {
+      addeventatc.settings({
+
+        css: false,
+
+        appleical: {
+          show: true,
+          text: "Apple Calendar"
+        },
+        google: {
+          show: true,
+          text: "Google <em>(online)</em>"
+        },
+        office365: {
+          show: true,
+          text: "Office 365 <em>(online)</em>"
+        },
+        outlook: {
+          show: true,
+          text: "Outlook"
+        },
+        outlookcom: {
+          show: true,
+          text: "Outlook.com <em>(online)</em>"
+        },
+        yahoo: {
+          show: true,
+          text: "Yahoo <em>(online)</em>"
+        },
+        facebook: {
+          show: true,
+          text: "Facebook"
+        }
+      });
+    };
+  </script>
+
+  <!-- Idiomas segun config de invitacion -->
+  
+
+<!-- Portada parallax -->
+<script>
+  var portadaParallaxTarget = '.portada';
+  var portadaParallaxMirror = '.portada';
+  var filtroParallaxTarget = '.filtro-portada-tematica';
+  var filtroParallaxMirror = '.portada';
+
+  // Si tiene foto de portada
+  
+    if (device == 'mobile' || $(window).width() < 768) {
+
+      // Aceptar webp?
+      if (support_format_webp()) {
+        var imageParallax = 'recursos-variantes-modelos/138/snow/variantes/night/portadas/portada-m.webp';
+      } else {
+        var imageParallax = 'recursos-variantes-modelos/138/snow/variantes/night/portadas/portada-m.jpg';
+      }
+
+    } else {
+
+      // Aceptar webp?
+      if (support_format_webp()) {
+        var imageParallax = 'recursos-variantes-modelos/138/snow/variantes/night/portadas/portada.webp';
+      } else {
+        var imageParallax = 'recursos-variantes-modelos/138/snow/variantes/night/portadas/portada.jpg';
+      }
+
+    }
+
+    $(portadaParallaxTarget).parallax({
+      imageSrc: imageParallax,
+      zIndex: 0,
+      mirrorContainer: portadaParallaxMirror
+    });
+
+  
+  // Si tengo marco tematica
+  </script>
+
+
+<!-- Svg inject -->
+<script>
+  function injectsSVGs() {
+    SVGInject(document.querySelectorAll("img.injectable"), {
+      makeIdsUnique: false,
+      useCache: false
+    });
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    injectsSVGs()
+  });
+</script>
+
+  
+    <!-- Scripts Estructura -->
+    <!-- Fondo de secciones principales con intercalado automatico -->
+<script>
+
+/**
+ * Script dinámico para asignar colores de fondo intercalados a secciones principales
+ * Busca todos los elementos con clase "seccion-principal" y les asigna
+ * background-color de forma alternada usando las variables CSS definidas
+ */
+(function() {
+  'use strict';
+
+  // Variables CSS para los colores intercalados
+  const COLOR_SECCION_1 = 'var(--color-fondo-secciones-1)';
+  const COLOR_SECCION_2 = 'var(--color-fondo-secciones-2)';
+
+  /**
+   * Obtiene todas las secciones principales presentes en el DOM
+   * Ordenadas según su posición en el documento
+   * @returns {NodeList} Lista de elementos con clase "seccion-principal"
+   */
+  function obtenerSeccionesPrincipales() {
+    return document.querySelectorAll('.seccion-principal');
+  }
+
+  /**
+   * Asigna colores de fondo intercalados a las secciones principales
+   * @param {NodeList} secciones - Lista de elementos seccion-principal
+   */
+  function asignarColoresIntercalados(secciones) {
+    if (!secciones || secciones.length === 0) {
+      return;
+    }
+
+    // Recorrer todas las secciones y asignar colores alternados
+    Array.from(secciones).forEach((seccion, index) => {
+      // Alternar: índice par = COLOR_SECCION_1, índice impar = COLOR_SECCION_2
+      const color = (index % 2 === 0) ? COLOR_SECCION_1 : COLOR_SECCION_2;
+      seccion.style.backgroundColor = color;
+    });
+  }
+
+  /**
+   * Función principal que ejecuta la asignación de colores
+   */
+  function ejecutarAsignacionColores() {
+    const secciones = obtenerSeccionesPrincipales();
+    asignarColoresIntercalados(secciones);
+  }
+
+  // Ejecutar cuando el DOM esté listo
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', ejecutarAsignacionColores);
+  } else {
+    // DOM ya está listo
+    ejecutarAsignacionColores();
+  }
+
+})();
+
+</script>
+
+
+
+
+
+  </div>
+  <!-- End Container invitacion -->
+
 </body>
+
 </html>
+

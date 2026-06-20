@@ -1,0 +1,416 @@
+/* ============================================
+   MOBILE RESPONSIVE STYLES
+   ============================================ */
+
+@media only screen and (max-width: 767px) {
+  
+  /* ============================================
+     UTILITIES & BASE CLASSES
+     ============================================ */
+  
+  .title {
+    font-size: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 25px;
+    margin-top: 0;
+  }
+
+  .boton {
+    font-size: 18px;
+  }
+
+  /* ============================================
+     LANGUAGE SELECTOR
+     ============================================ */
+  
+  ul.lang-inv {
+    top: -85px;
+  }
+
+  .flags-laguages {
+    padding: 5px;
+  }
+
+  /* ============================================
+     MUSIC PLAYER
+     ============================================ */
+  
+  #controlador-musica {
+    top: initial;
+    bottom: 0;
+    right: 0;
+  }
+
+  .music-anim-icon {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+  }
+
+  /* ============================================
+     PORTADA
+     ============================================ */
+  
+  section.portada ul.lang-inv {
+    top: 5px;
+    position: relative;
+    margin-bottom: 45px;
+  }
+
+  section.portada .content-portada h1 {
+    font-size: 80px;
+    line-height: 85px;
+  }
+
+  section.portada .content-portada .nombres {
+    flex-direction: column;
+    padding: 5px 0;
+  }
+
+  section.portada .content-portada .nombres span {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  section.portada .nombres span.ampersand-portada {
+    font-size: 35px;
+    line-height: 45px;
+    margin: 1px 0;
+  }
+
+  section.portada .box-nombres-fecha-portada span.fecha {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  section.portada .box-frase-portada p.frase-portada {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 22px;
+    margin-top: 50px;
+  }
+
+  section.portada p.subtitulo-portada {
+    font-size: 35px;
+    line-height: 35px;
+    margin: 15px 0 0 0;
+  }
+
+  section.portada .logo-portada {
+    width: 300px;
+    height: auto;
+  }
+
+  section.portada.portada-dividida {
+    min-height: 300px;
+    height: auto;
+  }
+
+  section.portada.portada-dividida .portada-dividida-row {
+    min-height: 0;
+  }
+
+  section.portada.portada-dividida .portada-imagen-dividida {
+    min-height: 560px;
+  }
+
+  section.portada.portada-dividida .portada-contenido-dividido {
+    min-height: auto;
+    height: auto;
+  }
+
+  /* ============================================
+     CUENTA REGRESIVA
+     ============================================ */
+  
+  section.cuenta-regresiva span.falta {
+    font-size: 55px;
+  }
+
+  section.cuenta-regresiva .reloj {
+    margin-top: 10px;
+  }
+
+  section.cuenta-regresiva .reloj-col {
+    width: 85px;
+  }
+
+  section.cuenta-regresiva .reloj-col span.number {
+    font-size: 45px;
+  }
+
+  section.cuenta-regresiva .reloj-col span.time {
+    font-size: 22px;
+  }
+
+  /* ============================================
+     EVENTOS
+     ============================================ */
+  
+  section.cols-eventos {
+    flex-direction: column;
+  }
+
+  section.cols-eventos .box-col {
+    width: 95%;
+  }
+
+  section.cols-eventos .col-ceremonia,
+  section.cols-eventos .col-fiesta {
+    width: 100%;
+    padding: 10px;
+  }
+
+  section.cols-eventos .col-ceremonia {
+    margin-bottom: 45px;
+  }
+
+  section.cols-eventos .col-ceremonia h3,
+  section.cols-eventos .col-fiesta h3 {
+    padding: 0;
+    font-size: 45px;
+  }
+
+  section.cols-eventos .col-ceremonia .anim-col-ceremonia,
+  section.cols-eventos .anim-col-fiesta {
+    width: 50%;
+    min-width: 150px;
+    max-width: 190px;
+    height: auto;
+  }
+
+  section.cols-eventos .info-col .info-box p {
+    font-size: 17px;
+    padding: 0 20px;
+  }
+
+  /* ============================================
+     GALERIA
+     ============================================ */
+  
+  section.galeria .content-fotos .polaroid {
+    padding-bottom: 15px;
+  }
+
+  /* ============================================
+     FIESTA
+     ============================================ */
+  
+  section.fiesta .box-cards-fiesta {
+    flex-direction: column;
+  }
+
+  section.fiesta .card-fiesta {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 15px;
+  }
+  
+  section.fiesta .card-fiesta .content-card-fiesta {
+    padding: 20px;
+  }
+
+  /* ============================================
+     INSTAGRAM
+     ============================================ */
+  
+  section.instagram .hashtag {
+    font-size: 35px;
+  }
+
+  /* ============================================
+     FOOTER
+     ============================================ */
+  
+  section.footer {
+    flex-direction: column;
+  }
+
+  section.footer .col-md-6 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  section.footer .col-md-6:last-child {
+    margin-bottom: 0;
+  }
+
+  section.footer .col-nombres-footer .nombres {
+    flex-direction: column;
+  }
+
+  section.footer .col-nombres-footer .nombres::before {
+    display: none;
+  }
+
+  section.footer .col-nombres-footer .iniciales {
+    margin-bottom: 10px;
+  }
+
+  section.footer .nombres span {
+    font-size: 90px;
+    line-height: 90px;
+  }
+
+  section.footer .nombres span.ampersand-footer {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  section.footer .col-nombres-footer .ampersand-footer {
+    width: 160px;
+  }
+
+  section.footer .lista-acciones-footer {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  section.footer .lista-acciones-footer li {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  section.footer .lista-acciones-footer a,
+  section.footer .addeventatc span.nameBtn {
+    font-size: 23px;
+  }
+
+  section.footer .logo-footer {
+    width: 300px;
+    height: auto;
+  }
+
+  /* ============================================
+     MODALS
+     ============================================ */
+  
+  .modal .modal-content-2.box-col {
+    padding: 10px 0;
+  }
+
+  .modal .modal-content-2.box-color-col {
+    padding: 10px 0;
+  }
+
+  .modal .modal-content-2 .modal-header .modal-title {
+    font-size: 30px;
+    line-height: 35px;
+    font-family: var(--fuente-1);
+  }
+
+  .modal.modal-transparent .modal-header h3 {
+    font-size: 25px;
+  }
+
+  .modal-dialog form label {
+    font-size: 16px;
+  }
+
+  .modal-dialog ::placeholder,
+  .modal-dialog :-ms-input-placeholder,
+  .modal-dialog ::-ms-input-placeholder {
+    font-size: 14px;
+  }
+
+  #modal-lang .modal-body {
+    padding: 0;
+  }
+
+  /* Modal Música */
+  #modalMusica .iniciales span {
+    font-size: 85px;
+    line-height: 90px;
+  }
+
+  #modalMusica .iniciales .ampersand {
+    height: 75px;
+  }
+
+  #modalMusica .box-nombres-modal-musica {
+    flex-direction: column;
+    padding: 10px 0px;
+  }
+
+  #modalMusica .box-nombres-modal-musica span {
+    font-size: 70px;
+    line-height: 75px;
+  }
+
+  #modalMusica .box-nombres-modal-musica span.ampersand-modal-musica {
+    font-size: 35px;
+    line-height: 43px;
+  }
+
+  #modalMusica .box-nombres-modal-musica::before,
+  #modalMusica .box-nombres-modal-musica::after {
+    width: 65%;
+  }
+
+  #modalMusica .modal-content {
+    padding: 30px 10px;
+  }
+
+  #modalMusica .modal-content p {
+    font-size: 35px;
+    line-height: 30px;
+    background-size: 120px;
+    background-position-y: 80px;
+    padding-bottom: 20px;
+  }
+
+  #modalMusica .modal-content .boton {
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    font-size: 19px;
+  }
+
+  #modalMusica .modal-content span.aclara-musica {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  #modalMusica .modal-content p.bienvenida-modal-musica {
+    margin-bottom: 23px;
+    padding-bottom: 0;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  #modalMusica .modal-content .box-nombres-modal-musica p {
+    font-size: 25px;
+    line-height: 25px;
+    padding: 0;
+  }
+
+  #modalMusica .ampersand-modal-musica {
+    width: 140px;
+    top: -10px;
+  }
+
+  #modalMusica .logo-modal-musica {
+    width: 300px;
+    height: auto;
+  }
+
+  /* ============================================
+     FORMS
+     ============================================ */
+  
+  #modalAsistencia .form-group.custom-radio {
+    padding: 0;
+    margin: 0;
+  }
+
+}

@@ -1,0 +1,637 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  --fuente-1: "Comfortaa", sans-serif;
+  --fuente-2: "Nunito", sans-serif;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Montez&display=swap');
+
+:root {
+
+
+  /* Fuentes */
+  --fuente-1: "Montez", cursive;
+  --fuente-2: "Libre Baskerville", serif;
+
+  /* Grosor fuentes (Depende de las fuentes declaradas arriba)*/
+  --grosor-fuente-light: 300;
+  --grosor-fuente-regular: 400;
+  --grosor-fuente-semi-bold: 600;
+  --grosor-fuente-bold: 700;
+
+}
+
+/* ============================================
+   UTILITIES & BASE CLASSES
+   ============================================ */
+
+.title {
+  font-family: var(--fuente-1);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 70px;
+  line-height: 75px;
+}
+
+.subtitle {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 22px;
+}
+
+span#error-form {
+  font-size: 16px;
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+
+.boton {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  line-height: 20px;
+  font-size: 18px;
+}
+
+/* ============================================
+   LANGUAGE SELECTOR
+   ============================================ */
+
+ul.lang-inv li a {
+  font-size: 14px;
+  font-family: var(--fuente-1);
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.flags-laguages a.reset-lang {
+  font-size: 14px;
+}
+
+/* ============================================
+   PORTADA
+   ============================================ */
+
+section.portada .box-nombres-fecha-portada span.fecha-portada {
+  font-family: var(--fuente-2);
+  font-size: 23px;
+  line-height: 23px;
+}
+
+section.portada .content-portada .nombres span {
+  font-size: 120px;
+  line-height: 95px;
+  font-family: var(--fuente-1);
+  font-weight: var(--grosor-fuente-regular);
+}
+
+section.portada .nombres span.ampersand-portada {
+  font-size: 40px;
+  font-family: var(--fuente-2);
+  line-height: 53px;
+  letter-spacing: 0;
+}
+
+section.portada p.subtitulo-portada {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 35px;
+  line-height: 40px;
+}
+
+section.portada .box-frase-portada p {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 22px;
+  line-height: 30px;
+}
+
+/* ============================================
+   CUENTA REGRESIVA
+   ============================================ */
+
+section.cuenta-regresiva span.falta {
+  font-family: var(--fuente-1);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 70px;
+}
+
+section.cuenta-regresiva .reloj-col span.number {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 55px;
+  line-height: 50px;
+}
+
+section.cuenta-regresiva .reloj-col span.time {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 25px;
+}
+
+section.cuenta-regresiva p.fin-cuenta {
+  font-size: 40px;
+  line-height: 45px;
+  font-family: var(--fuente-1);
+}
+
+/* ============================================
+   EVENTOS
+   ============================================ */
+
+section.cols-eventos .col-ceremonia h3,
+section.cols-eventos .col-fiesta h3 {
+  font-family: var(--fuente-1);
+  font-size: 75px;
+}
+
+section.cols-eventos .info-col .info-box h6 {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 32px;
+}
+
+section.cols-eventos .info-col .info-box p {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 18px;
+}
+
+/* ============================================
+   GALERIA
+   ============================================ */
+
+section.galeria .slick-dots li button:before {
+  font-size: 45px !important;
+}
+
+/* ============================================
+   FIESTA
+   ============================================ */
+
+section.fiesta .card-fiesta h3 {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 30px;
+}
+
+section.fiesta .card-fiesta p {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 17px;
+}
+
+/* ============================================
+   INSTAGRAM
+   ============================================ */
+
+section.instagram .hashtag {
+  font-size: 50px;
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+section.footer .col-nombres-footer .nombres span {
+  font-size: 90px;
+  line-height: 70px;
+  font-family: var(--fuente-1);
+  font-weight: var(--grosor-fuente-regular);
+}
+
+section.footer .col-nombres-footer span.ampersand-footer {
+  font-size: 28px;
+  font-family: var(--fuente-2);
+  line-height: 39px;
+}
+
+section.footer p.subtitulo-footer {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 25px;
+  line-height: 25px;
+}
+
+section.footer .lista-acciones-footer {
+  font-family: var(--fuente-1);
+  font-weight: 400;
+}
+
+section.footer .lista-acciones-footer li {
+  line-height: 20px;
+}
+
+section.footer .lista-acciones-footer a,
+section.footer .addeventatc span.nameBtn {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 20px;
+}
+
+/* ============================================
+   FOOTER FIRMA
+   ============================================ */
+
+footer {
+  font-family: var(--fuente-2);
+}
+
+footer p {
+  font-size: 16px;
+  font-family: var(--fuente-2);
+}
+
+footer p a {
+  font-size: 16px;
+}
+
+/* ============================================
+   MODALS
+   ============================================ */
+
+.modal-dialog {
+  font-family: var(--fuente-1);
+}
+
+.modal-dialog .modal-title {
+  font-weight: 700;
+}
+
+.modal-dialog form label {
+  font-size: 21px;
+  line-height: 21px;
+  font-family: var(--fuente-2);
+}
+
+.modal-dialog ::placeholder,
+.modal-dialog :-ms-input-placeholder,
+.modal-dialog ::-ms-input-placeholder {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 16px;
+}
+
+.modal.modal-transparent .close {
+  font-size: 40px;
+}
+
+.modal.modal-transparent .modal-header h3 {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 26px;
+}
+
+.modal .modal-content-2 p {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 17px;
+}
+
+.modal .modal-content-2 .close {
+  line-height: 37px;
+  font-size: 34px;
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+}
+
+.modal .modal-content-2 .modal-header .modal-title {
+  font-size: 35px;
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+}
+
+.modal .msj-content h5 {
+  font-weight: 700;
+}
+
+/* Modal Música */
+#modalMusica .modal-content {
+  font-family: var(--fuente-1);
+  font-weight: var(--weight-font-regular);
+}
+
+#modalMusica .box-nombres-modal-musica span {
+  font-size: 115px;
+  line-height: 100px;
+  font-family: var(--fuente-1);
+  font-weight: var(--grosor-fuente-regular);
+}
+
+#modalMusica span.ampersand-modal-musica {
+  font-size: 40px;
+  font-family: var(--fuente-2);
+  line-height: 51px;
+}
+
+#modalMusica p.subtitulo-modal-musica {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 30px;
+  line-height: 25px;
+}
+
+#modalMusica .modal-content p.bienvenida-modal-musica {
+  font-size: 25px;
+  line-height: 22px;
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+}
+
+#modalMusica .modal-content span.aclara-musica {
+  font-size: 18px;
+  font-weight: var(--grosor-fuente-regular);
+  font-family: var(--fuente-2);
+}
+
+#modalMusica .box-nombres-modal-musica span.ampersand-modal-musica {
+  line-height: 51px;
+}
+
+/* Modal Asistencia */
+#modalAsistencia input,
+#modalAsistencia textarea {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 16px;
+}
+
+#modalAsistencia .form-control {
+  font-size: 15px;
+}
+
+#formAsistencia .form-group .form-check {
+  font-size: 18px;
+}
+
+/* Modal Sugerir Canción */
+#modalSugerirCancion .form-control {
+  font-size: 16px;
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+}
+
+/* ============================================
+   BANNER CONTACTO WEB
+   ============================================ */
+
+.banner-contacto-web p {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 14px;
+}
+
+/* ============================================
+   CARDS INVITADOS
+   ============================================ */
+
+.bloque-grupo-invitados .pases-total {
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: var(--fuente-2);
+}
+
+.bloque-grupo-invitados .titulo-grupo {
+  font-size: 70px;
+  font-family: var(--fuente-1);
+  text-transform: capitalize;
+}
+
+.bloque-grupo-invitados .mensaje-grupo {
+  font-family: var(--fuente-2);
+  font-weight: var(--grosor-fuente-regular);
+  font-size: 20px;
+}
+
+.bloque-grupo-invitados .lista-invitados {
+  font-family: var(--fuente-1);
+}
+
+.bloque-grupo-invitados .invitado-item {
+  font-size: 25px;
+  font-family: var(--fuente-2);
+}
+
+.bloque-grupo-invitados .acompanantes-info {
+  font-size: 17px;
+  font-family: var(--fuente-2);
+}
+
+/* ============================================
+   FORMULARIO FLEX
+   ============================================ */
+
+#modalAsistencia .form-flex-container {
+  font-family: var(--fuente-2);
+}
+
+#modalAsistencia .form-flex-title {
+  font-family: var(--fuente-1);
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+#modalAsistencia .form-flex-subtitle {
+  font-family: var(--fuente-2);
+}
+
+#modalAsistencia .form-flex-label {
+  font-family: var(--fuente-2);
+  font-size: 18px;
+}
+
+#modalAsistencia .form-flex-input,
+#modalAsistencia .form-flex-textarea,
+#modalAsistencia .form-flex-select {
+  font-family: var(--fuente-2);
+  font-size: 1em;
+}
+
+#modalAsistencia .form-flex-radio-option,
+#modalAsistencia .form-flex-checkbox-option {
+  font-family: var(--fuente-2);
+}
+
+#modalAsistencia .form-flex-evento-opcion {
+  font-family: var(--fuente-2);
+}
+
+#modalAsistencia .form-flex-error {
+  font-family: var(--fuente-2);
+  font-size: 0.85em;
+}
+
+#modalAsistencia .form-flex-btn {
+  font-family: var(--fuente-2);
+  font-size: 0.95em;
+}
+
+#modalAsistencia .form-flex-loading p {
+  font-family: var(--fuente-2);
+}
+
+#modalAsistencia .form-flex-exito-titulo {
+  font-family: var(--fuente-1);
+  font-size: 50px;
+}
+
+#modalAsistencia .form-flex-exito-mensaje {
+  font-family: var(--fuente-2);
+}
+
+#modalAsistencia .form-flex-btn-otro-invitado {
+  font-family: var(--fuente-2);
+}
+
+#modalAsistencia .form-flex-radio-label,
+#modalAsistencia .form-flex-checkbox-label {
+  font-size: 18px;
+}
+
+#modalAsistencia .form-flex-help-text {
+  font-family: var(--fuente-2);
+  font-size: 15px;
+  opacity: 1;
+}
+
+/* Responsive */
+@media only screen and (max-width: 767px) {
+
+  section.portada .content-portada .nombres span {
+    font-size: 100px;
+    line-height: 80px;
+  }
+
+  section.portada p.subtitulo-portada {
+    font-size: 35px;
+    line-height: 51px;
+  }
+
+  section.portada .nombres span.ampersand-portada {
+    font-size: 35px;
+    line-height: 51px;
+  }
+
+  section.portada .box-nombres-fecha-portada span.fecha-portada {
+    font-size: 20px;
+  }
+
+  section.cuenta-regresiva .reloj-col span.number {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  section.cuenta-regresiva .reloj-col span.time {
+    font-size: 22px;
+  }
+
+  .bloque-grupo-invitados .invitado-item {
+    font-size: 20px;
+  }
+
+  section.cuenta-regresiva span.falta {
+    font-size: 70px;
+  }
+
+  .bloque-grupo-invitados .titulo-grupo {
+    font-size: 65px;
+  }
+
+  section.cols-eventos .col-ceremonia h3,
+  section.cols-eventos .col-fiesta h3 {
+    font-size: 65px;
+  }
+
+  section.cols-eventos .info-col .info-box h6 {
+    font-size: 25px;
+  }
+
+  .title {
+    font-size: 59px;
+    line-height: 45px;
+  }
+
+  .subtitle {
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  section.portada p.subtitulo-portada {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .boton {
+    font-size: 17px;
+  }
+
+  section.fiesta .card-fiesta h3 {
+    font-size: 25px;
+  }
+
+  section.instagram .hashtag {
+    font-size: 30px;
+  }
+
+  section.footer .lista-acciones-footer a,
+  section.footer .addeventatc span.nameBtn {
+    font-size: 18px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+  footer p a {
+    font-size: 14px;
+  }
+
+  .modal .modal-content-2 .modal-header .modal-title {
+    font-size: 25px;
+  }
+
+  .modal-dialog form label {
+    font-size: 18px;
+  }
+
+  #modalMusica .box-nombres-modal-musica span {
+    font-size: 90px;
+    line-height: 90px;
+  }
+
+  #modalMusica .modal-content p.bienvenida-modal-musica {
+    font-size: 19px;
+    line-height: 22px;
+  }
+
+  #modalMusica .modal-content .boton {
+    font-size: 16px;
+  }
+
+  section.portada .box-frase-portada p.frase-portada {
+    line-height: 25px;
+    font-size: 17px;
+  }
+
+  section.footer .col-nombres-footer .nombres span {
+    font-size: 80px;
+  }
+
+  #modalMusica .modal-content span.aclara-musica {
+    font-size: 14px;
+  }
+
+  .bloque-grupo-invitados .mensaje-grupo {
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  #modalAsistencia .form-flex-label {
+    font-size: 16px;
+  }
+}
