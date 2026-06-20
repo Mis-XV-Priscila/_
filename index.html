@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Invitación Mis XV Años">
+    <title>Mis XV - Priscila Martínez</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- YouTube audio element for background music (Hack para visibilidad en móviles) -->
+    <div style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; opacity: 0.01; z-index: -100; pointer-events: none;">
+        <div id="yt-player"></div>
+    </div>
+
+    <!-- Global Sparkles Canvas -->
+    <canvas id="sparkles"></canvas>
+
+    <!-- LANDING: Envelope Screen -->
+    <div id="envelope-wrapper">
+        <div class="envelope-container" id="envelope" aria-label="Haz clic para abrir la invitación">
+            <div class="back"></div>
+            <div class="letter">
+                <span class="letter-title">Mis XV</span>
+                <span style="font-family:'Montserrat', sans-serif; font-size:0.9rem; text-transform:uppercase; letter-spacing: 1px;">Priscila Martínez</span>
+            </div>
+            <div class="front"></div>
+            <div class="flap"></div>
+        </div>
+        <div class="instruction">Haz clic para abrir</div>
+    </div>
+
+    <!-- MAIN INVITATION CONTENT -->
+    <div id="main-content">
+        
+        <!-- 1. Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content fade-in-element">
+                <h1>Mis XV</h1>
+                <h2>Priscila Martínez</h2>
+                <p>Te invito a compartir este momento tan especial</p>
+            </div>
+            <!-- Optional scrolling down indicator -->
+            <div style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); animation: pulse 2s infinite;">
+                <i class="fa-solid fa-chevron-down" style="font-size: 2rem; color: #fff;"></i>
+            </div>
+        </section>
+
+        <!-- 2. Event Details -->
+        <section class="event-details bg-white" id="details">
+            <h2 class="section-title fade-in-element">Cuándo y Dónde</h2>
+            <div class="details-grid">
+                <!-- Date -->
+                <div class="detail-card fade-in-element">
+                    <i class="fa-regular fa-calendar detail-icon"></i>
+                    <h3>Fecha</h3>
+                    <p>Sábado</p>
+                    <p>11 de Julio del 2026</p>
+                </div>
+                <!-- Time -->
+                <div class="detail-card fade-in-element">
+                    <i class="fa-regular fa-clock detail-icon"></i>
+                    <h3>Hora</h3>
+                    <p>Celebración: 20:00 hrs</p>
+                    <p>Recepción: 21:00 hrs</p>
+                </div>
+                <!-- Location -->
+                <div class="detail-card fade-in-element">
+                    <i class="fa-solid fa-location-dot detail-icon"></i>
+                    <h3>Lugar</h3>
+                    <p>Salón Nueva Luna</p>
+                    <p>De las Industrias, 15900 La Paz, Canelones</p>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Sal%C3%B3n+Nueva+Luna,+De+las+Industrias,+15900+La+Paz,+Canelones" target="_blank" rel="noopener noreferrer" class="btn">Ver ubicación</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Photo Gallery -->
+        <section class="gallery bg-soft" id="gallery">
+            <h2 class="section-title fade-in-element">Mis Recuerdos</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in-element">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" alt="Sesión de fotos 1" loading="lazy">
+                </div>
+                <div class="gallery-item fade-in-element" style="transition-delay: 0.1s;">
+                    <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=600&q=80" alt="Sesión de fotos 2" loading="lazy">
+                </div>
+                <div class="gallery-item fade-in-element" style="transition-delay: 0.2s;">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=600&q=80" alt="Sesión de fotos 3" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Countdown Timer -->
+        <section class="countdown-section bg-white" id="countdown">
+            <h2 class="section-title fade-in-element">Faltan</h2>
+            <div class="timer-container fade-in-element" id="timer">
+                <div class="time-box">
+                    <span class="number" id="days">00</span>
+                    <span class="label">Días</span>
+                </div>
+                <div class="time-box">
+                    <span class="number" id="hours">00</span>
+                    <span class="label">Horas</span>
+                </div>
+                <div class="time-box">
+                    <span class="number" id="mins">00</span>
+                    <span class="label">Min</span>
+                </div>
+                <div class="time-box">
+                    <span class="number" id="secs">00</span>
+                    <span class="label">Seg</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Confirmation Section -->
+        <section class="confirmation bg-soft" id="rsvp">
+            <div class="confirmation-box fade-in-element">
+                <h2 class="section-title" style="margin-bottom: 30px;">Confirmación</h2>
+                <p style="margin-bottom: 15px; font-size: 1.15rem;">Espero contar con tu presencia para que este día sea inolvidable.</p>
+                <p style="margin-bottom: 35px; font-weight: 600; color: var(--primary-dark);">Por favor confirma tu asistencia antes del 01 de Junio.</p>
+                
+                <a href="https://wa.me/59891842501?text=Hola,%20con%20mucho%20gusto%20confirmo%20mi%20asistencia%20a%20los%20XV%20a%C3%B1os%20de%20Priscila%20Mart%C3%ADnez" target="_blank" rel="noopener noreferrer" class="btn btn-gold">
+                    <i class="fa-brands fa-whatsapp whatsapp-icon"></i> Confirmar por WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>💖 “Gracias por acompañarme en este día tan importante”</p>
+        </footer>
+    </div>
+    
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+</html>
