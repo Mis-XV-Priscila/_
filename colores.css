@@ -1,0 +1,223 @@
+:root {
+
+  /* Paleta colores */
+  --color-pallete-1: #9ED5FD;
+  /* Azul claro - iconos, bordes, acentos */
+  --color-pallete-2: #F3F3F3;
+  /* Blanco - textos principales */
+  --color-pallete-3: #9ED5FD;
+  /* Dorado - comillas, elementos decorativos */
+  --color-pallete-4: #04294A;
+  /* Azul oscuro intermedio - fondos de cards/botones */
+  --color-pallete-5: #081B30;
+  /* Azul marino muy oscuro - fondo principal */
+  --color-pallete-6: #D9D9D9;
+  /* Mismo que pallete-5 para fondos alternos */
+  --color-pallete-7: #FFFFFF;
+  /* Blanco - textos */
+  --color-pallete-8: #010C1D;
+  /* Azul muy oscuro - reservado */
+
+  /* ----------------------- */
+
+  /* Generales */
+  --color-fondo-loader: var(--color-pallete-5);
+  --color-loader: var(--color-pallete-3);
+  --color-fondo-body: var(--color-pallete-8);
+  --color-scroll-track: var(--color-pallete-5);
+  --color-scroll-thumb: var(--color-pallete-1);
+  --color-scroll-thumb-hover: var(--color-pallete-3);
+  --color-titulos: var(--color-pallete-3);
+  --color-subtitulos: var(--color-pallete-2);
+  --color-fondo-btns: var(--color-pallete-1);
+  --color-fondo-btns-hover: var(--color-pallete-3);
+  --color-txt-btns: var(--color-pallete-4);
+  --color-txt-btns-hover: var(--color-pallete-4);
+  --color-backdrop-modal: var(--color-pallete-5);
+  --color-titulo-modal: var(--color-pallete-3);
+  --color-fondo-col-modal: var(--color-pallete-4);
+  --color-iconos-modales: var(--color-pallete-1);
+  --color-textos-modales: var(--color-pallete-2);
+  --color-x-cierre-modales: var(--color-pallete-4);
+  --color-hover-x-cierre-modales: var(--color-pallete-4);
+  --color-fondo-x-cierre-modales: var(--color-pallete-3);
+  --color-fondo-hover-x-cierre-modales: var(--color-pallete-1);
+  --color-titulo-modal-paises: var(--color-pallete-2);
+  --color-btns-idiomas: var(--color-pallete-1);
+  --color-txt-btns-idiomas: var(--color-pallete-2);
+  --color-hover-btns-idiomas: var(--color-pallete-1);
+  --color-hover-txt-btns-idiomas: var(--color-pallete-2);
+  --color-label-forms: var(--color-pallete-2);
+  --color-bordes-inputs-forms: var(--color-pallete-1);
+  --color-placeholders-forms: var(--color-pallete-2);
+  --color-checkbox: var(--color-pallete-3);
+  --color-inputs-form: var(--color-pallete-2);
+  --color-input-focus: var(--color-pallete-1);
+  --color-titulo-form-enviado: var(--color-pallete-3);
+  --color-texto-form-enviado: var(--color-pallete-2);
+  --color-bordes-marcos: var(--color-pallete-1);
+
+  /* ----------------------- */
+
+  /* Colores de secciones principales */
+  --color-fondo-secciones-1: var(--color-pallete-5);
+  /* Para uso automatico */
+  --color-fondo-secciones-2: var(--color-pallete-4);
+  /* Para uso automatico */
+
+  /* Para manipulacion de fondo manual */
+  --color-fondo-portada-dividida: var(--color-pallete-5);
+  --color-fondo-cta-regresiva: var(--color-pallete-5);
+  --color-fondo-invitados: var(--color-pallete-5);
+  --color-fondo-eventos: var(--color-pallete-5);
+  --color-fondo-confirmacion-asistencia: var(--color-pallete-5);
+  --color-fondo-galeria: var(--color-pallete-5);
+  --color-fondo-fiesta: var(--color-pallete-5);
+  --color-fondo-regalos: var(--color-pallete-5);
+  --color-fondo-instagram: var(--color-pallete-5);
+  --color-fondo-footer: var(--color-pallete-5);
+  --color-fondo-firma: var(--color-pallete-5);
+
+  /* ----------------------- */
+
+  /* Musica */
+  --color-backdrop-modal-musica: var(--color-pallete-5);
+  --color-circulos-anim-reproductor: var(--color-pallete-1);
+  --color-nota-anim-reproductor: var(--color-pallete-1);
+  --color-nombres-modal-musica: var(--color-pallete-2);
+  --color-subtitulo-modal-musica: var(--color-pallete-3);
+  --color-ampersand-modal-musica: var(--color-pallete-2);
+  --color-lineas-nombres-modal-musica: var(--color-pallete-2);
+  --color-fondo-ampersand-modal-musica: var(--color-pallete-1);
+  --color-txt-bienvenida: var(--color-pallete-3);
+  --color-txt-recomienda-musica: var(--color-pallete-2);
+
+  /* Portada */
+  --color-fecha-portada: var(--color-pallete-2);
+  --color-nombres-portada: var(--color-pallete-2);
+  --color-subtitulo-portada: var(--color-pallete-3);
+  --color-ampersand-portada: var(--color-pallete-2);
+  --color-lineas-nombres-portada: var(--color-pallete-2);
+  --color-fondo-ampersand-portada: var(--color-pallete-1);
+  --color-frase-portada: var(--color-pallete-2);
+  --color-filtro-portada: var(--color-pallete-4);
+  --opacidad-filtro-portada: 0.1;
+  --color-comillas-portada: var(--color-pallete-1);
+
+  /* Cuenta regresiva */
+  --color-titulo-cuenta-regresiva: var(--color-pallete-3);
+  --color-numeros-cuenta-regresiva: var(--color-pallete-2);
+  --color-texto-cuenta-regresiva: var(--color-pallete-1);
+  --color-divisores-cta-regresiva: var(--color-pallete-2);
+  --color-msjfinal-cta-regresiva: var(--color-pallete-2);
+
+  /* Eventos */
+  --color-fondo-col-evento: var(--color-pallete-4);
+  --color-anim-eventos: var(--color-pallete-1);
+  --color-titulos-eventos: var(--color-pallete-3);
+  --color-subtitulos-eventos: var(--color-pallete-2);
+  --color-textos-eventos: var(--color-pallete-1);
+
+  /* Confirmacion de asistencia */
+  --color-titulos-confirmacion-asistencia: var(--color-pallete-3);
+  --color-subtitulos-confirmacion-asistencia: var(--color-pallete-2);
+
+  /* Galeria */
+  --color-titulo-galeria: var(--color-pallete-3);
+  --color-subtitulo-galeria: var(--color-pallete-2);
+  --color-anim-galeria: var(--color-pallete-1);
+  --color-fondo-polaroid: var(--color-pallete-1);
+  --color-fondo-polaroid-centro: var(--color-pallete-3);
+  --color-bullet-galeria: var(--color-pallete-1);
+  --color-modal-galeria: var(--color-pallete-4);
+
+  /* Fiesta */
+  --color-titulos-cards: var(--color-pallete-3);
+  --color-txt-cards: var(--color-pallete-2);
+  --color-anim-cards: var(--color-pallete-1);
+  --color-fondo-card-fiesta: var(--color-pallete-8);
+
+  /* Regalos */
+  --color-titulo-regalos: var(--color-pallete-3);
+  --color-subtitulo-regalos: var(--color-pallete-2);
+  --color-anim-regalos: var(--color-pallete-1);
+
+  /* Instagram */
+  --color-anim-instagram: var(--color-pallete-1);
+  --color-fondo-hashtag: var(--color-pallete-4);
+  --color-link-instagram: var(--color-pallete-3);
+
+  /* Footer */
+  --color-nombres-footer: var(--color-pallete-3);
+  --color-subtitulo-footer: var(--color-pallete-2);
+  --color-ampersand-footer: var(--color-pallete-2);
+  --color-lineas-nombres-footer: var(--color-pallete-1);
+  --color-fondo-ampersand-footer: var(--color-pallete-1);
+  --color-links-footer: var(--color-pallete-2);
+  --color-links-footer-hover: var(--color-pallete-1);
+  --color-txt-firma: var(--color-pallete-2);
+  --color-link-firma: var(--color-pallete-1);
+  --color-link-firma-hover: var(--color-pallete-1);
+
+
+  /* Invitados */
+  --color-fondo-cant-invitados: var(--color-pallete-1);
+  --color-txt-cant-invitados: var(--color-pallete-4);
+  --color-titulo-invitados: var(--color-pallete-3);
+  --color-txt-acompaniantes: var(--color-pallete-2);
+  --color-fondo-nombres-invitados: var(--color-pallete-5);
+  --color-nombres-invitados: var(--color-pallete-1);
+  --color-mensaje-invitados: var(--color-pallete-2);
+
+
+  /* Formulario Flex - Textos */
+  --color-form-flex-titulo: var(--color-pallete-3);
+  --color-form-flex-subtitulo: var(--color-pallete-1);
+  --color-form-flex-labels: var(--color-pallete-3);
+  --color-form-flex-textos: var(--color-pallete-3);
+  --color-form-flex-error: var(--color-pallete-1);
+
+  /* Formulario Flex - Inputs */
+  --color-form-flex-inputs: var(--color-pallete-3);
+  --color-form-flex-inputs-fondo: var(--color-pallete-5);
+  --color-form-flex-placeholder: var(--color-pallete-3);
+  --color-form-flex-help-text: var(--color-pallete-1);
+  --color-form-flex-fondo: var(--color-pallete-5);
+
+  /* Formulario Flex - Opciones (radios, checkboxes, Sí/No eventos) */
+  --color-form-flex-opcion-color: var(--color-pallete-3);
+  --color-form-flex-opcion-fondo-activo: var(--color-pallete-3);
+  --color-form-flex-opcion-color-activo: var(--color-pallete-4);
+  --color-form-flex-opcion-color-sel-hover: var(--color-pallete-4);
+
+  /* Formulario Flex - Botones primarios */
+  --color-form-flex-btn-fondo: var(--color-pallete-1);
+  --color-form-flex-btn-fondo-hover: var(--color-pallete-3);
+  --color-form-flex-txt-btn: var(--color-pallete-4);
+  --color-form-flex-txt-btn-hover: var(--color-pallete-4);
+
+  /* Formulario Flex - Botón Anterior */
+  --color-form-flex-btn-anterior-fondo: var(--color-pallete-1);
+  --color-form-flex-btn-anterior-color: var(--color-pallete-5);
+  --color-form-flex-btn-anterior-fondo-hover: var(--color-pallete-3);
+  --color-form-flex-btn-anterior-color-hover: var(--color-pallete-5);
+
+  /* Formulario Flex - Iconos y Spinner */
+  --color-form-flex-btn-icono: var(--color-pallete-4);
+  --color-form-flex-spinner: var(--color-pallete-3);
+
+  /* Formulario Flex - Overlay de carga */
+  --color-form-flex-loading-overlay: var(--color-pallete-4);
+}
+
+
+/* Especiales */
+
+/* Fondo modal musica */
+.backdrop-modal-musica .modal-backdrop {
+  background-image: url('../../variantes/night/img/fondo-modal-musica.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+/* end Especiales */
